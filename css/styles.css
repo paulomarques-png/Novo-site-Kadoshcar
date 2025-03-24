@@ -208,18 +208,41 @@ main section h2 {
     justify-content: space-between;
 }
 
-.box-servicos figure{
+.box-servicos a{
     height: 28.5rem;
     border-radius: 3rem;
     overflow: hidden;
+    background-color: rgba(190, 22, 123, 1);
 }
 
-.box-servicos figcaption p{
-    margin: -6rem 0rem 0rem 2rem;
+.box-servicos a span{
+    margin-top: -5.5rem;
+    padding: 0rem 0rem 0rem 2rem;
+    display: flex;
+    gap: 2.5rem;
+    /* align-items: center; */
+    /* background-color: aqua; */
+}   
+
+.box-servicos a p{
     font-family: 'montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.6rem;
     width: 14.3rem;
+    color: white;
+}
+
+.icon-card-1{
+    margin-top: -2rem;
+}
+.icon-card-2{
+    margin-top: -3rem;
+}
+.icon-card-3{
+    margin-top: -1.5rem;
+}
+.icon-card-4{
+    margin-top: -2rem;
 }
 
 #parceiros{
@@ -281,6 +304,9 @@ article span{
 
 .box-testemunhos article img:last-of-type {
     margin-bottom: -7.5rem;
+    border-radius: 6rem;
+    outline: 3px solid rgba(190, 22, 123, 1);
+    outline-offset: -3px;
 }
 
 footer {
