@@ -1,0 +1,81 @@
+
+
+@media (min-width: 1028px) and (max-width: 1280px) {
+ 
+    .container {
+        background-color: white;
+        max-width: 1028px;
+        border-radius: 20px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .sub-header {
+        max-width: 1028px;
+        padding: 0rem 4rem;
+        gap: 2rem;
+    }
+
+    header {
+        height: 52rem;
+        padding: 6rem 9.5rem;
+    }
+
+    .hero {
+        /* background-color: aquamarine; */
+        max-width: 25rem;
+        line-height: 3rem;
+    }
+    
+    h1 > span {
+        line-height: 3.8rem;
+    }
+
+    .span-hero-1 {
+        font-size: 2.8rem;
+    }
+    
+    .span-hero-2,
+    .span-hero-4 {
+        font-size: 3.5rem;
+    }
+    
+    .span-hero-3 {
+        font-size: 3rem;
+    }
+
+    .botao-hero {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 1.2rem;
+    }
+
+    .btn-contato {
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul {
+        gap: 3rem;
+    }
+
+    main section {
+        padding: 2.9rem 9.5rem;
+    }
+
+    .box-servicos {
+        flex-wrap: wrap;
+    }
+
+    .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
+        display: none;
+    }
+
+    .box-parceiros {
+    }
+
+    .box-testemunhos {
+    }
+
+    .main-footer {
+    }
+}
