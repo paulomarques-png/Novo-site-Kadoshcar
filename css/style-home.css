@@ -214,6 +214,10 @@ main section h2 {
     justify-content: space-between;
 }
 
+.box-parceiros img {
+    border-radius: 1.6rem
+}
+
 .box-servicos figcaption {
     display: flex;
     justify-content: space-between;
