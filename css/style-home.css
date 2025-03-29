@@ -308,12 +308,12 @@ footer {
     padding: 3.5rem 8rem;
     display: flex;
     justify-content: space-between;
-    gap: 5.6rem;
+    align-items: flex-start;
 }
 
 .main-footer div {
     max-width: 21.6rem;
-    min-width: 16.9rem;
+    /* min-width: 16.9rem; */
 }
 
 .main-footer div h3 {
@@ -340,4 +340,8 @@ footer {
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 110%;
+}
+
+.funcionamento-v1 {
+    display: none;
 }

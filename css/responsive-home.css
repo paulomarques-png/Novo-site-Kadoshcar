@@ -70,12 +70,36 @@
         display: none;
     }
 
-    .box-parceiros {
+    .box-parceiros img{
+        flex-wrap: wrap;
+        width: 18%;
     }
 
-    .box-testemunhos {
+    .box-testemunhos article:last-child {
+        display: none;
+    }
+
+    .sub-footer {
+        padding: 1.5rem 9.5rem;
+        justify-content: end;
+        gap: 2rem;
+    }
+
+    .preenchimento{
+        display: none;
     }
 
     .main-footer {
+        padding: 3.5rem 9.5rem;
+        gap: none;
+    }
+
+    .funcionamento-v1 {
+        display: block;
+        margin-top: 2.5rem;
+    }
+
+    .funcionamento-v2{
+        display: none;
     }
 }
