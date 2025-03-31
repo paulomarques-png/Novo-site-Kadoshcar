@@ -215,7 +215,8 @@ main section h2 {
 }
 
 .box-parceiros img {
-    border-radius: 1.6rem
+    border-radius: 1.6rem;
+    border: .2rem solid rgb(129, 129, 129);
 }
 
 .box-servicos figcaption {

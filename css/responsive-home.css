@@ -1,6 +1,6 @@
 
 
-@media (min-width: 1028px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
  
     .container {
         background-color: white;
@@ -17,7 +17,7 @@
 
     header {
         height: 52rem;
-        padding: 6rem 9.5rem;
+        padding: 6rem 6rem;
     }
 
     .hero {
@@ -59,7 +59,7 @@
     }
 
     main section {
-        padding: 2.9rem 9.5rem;
+        padding: 2.9rem 6rem;
     }
 
     .box-servicos {
@@ -80,7 +80,7 @@
     }
 
     .sub-footer {
-        padding: 1.5rem 9.5rem;
+        padding: 1.5rem 6rem;
         justify-content: end;
         gap: 2rem;
     }
@@ -90,8 +90,132 @@
     }
 
     .main-footer {
-        padding: 3.5rem 9.5rem;
+        padding: 3.5rem 6rem;
         gap: none;
+    }
+
+    .funcionamento-v1 {
+        display: block;
+        margin-top: 2.5rem;
+    }
+
+    .funcionamento-v2{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+ 
+    .container {
+        background-color: white;
+        max-width: 76.8rem;
+        border-radius: 2rem;
+        margin: auto;
+        overflow: hidden;
+    }
+    .sub-header {
+        max-width: 76.8rem;
+        padding: 0rem 4rem; 
+        gap: 2rem;
+    }
+
+    header {
+        height: 44rem;
+        padding: 4rem 4rem 0;
+        flex-flow: column-reverse;
+        align-items: center;
+    }   
+
+    .hero {
+        width: 100%;
+        padding: 3rem 2rem 0;
+        align-items: center;
+        gap: 2rem;
+        background-color: rgba(0, 0, 0, .7);
+        border-radius: 1.5rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+    
+    h1 > p {
+        line-height: 4rem;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 3.8rem;
+    }
+
+    /* .p-hero-1 {
+        font-size: 2.8rem;
+    }
+    
+    .p-hero-2,
+    .p-hero-4 {
+        font-size: 3.5rem;
+    }
+    
+    .p-hero-3 {
+        font-size: 3rem;
+    } */
+
+    .botao-hero {
+        margin-bottom: -2rem;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .btn-contato {
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul {
+        gap: 3rem;
+    }
+
+    main section {
+        padding: 4rem 10.8rem;
+    }
+
+    .box-servicos {
+        flex-wrap: wrap;
+    }
+
+    .box-servicos a:nth-child(5), .box-servicos a:nth-child(6), .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
+        display: none;
+    }
+
+    .box-parceiros {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .box-parceiros img{
+        width: 30%;
+    }
+
+    .box-testemunhos article:nth-child(3), .box-testemunhos article:last-child {
+        display: none;
+    }
+
+    .sub-footer {
+        padding: 1.5rem 6rem;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .preenchimento{
+        display: none;
+    }
+
+    .main-footer {
+        padding: 3.5rem 6rem;
+        gap: none;
+    }
+
+    .main-footer img:first-of-type {
+        display: none;
     }
 
     .funcionamento-v1 {
