@@ -1,6 +1,6 @@
-const swiper = new Swiper('.swiper', {
+new Swiper('.card-wrapper', {
     loop: true,
-    spaceBetween: 30,
+    spaceBetween: 15,
   
     // If we need pagination
     pagination: {
@@ -14,22 +14,23 @@ const swiper = new Swiper('.swiper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
 
     // Responsive breakpoints
     breakpoints: {
         360: {
             slidesPerView: 1,
         },
-        594: {
+        593: {
             slidesPerView: 2,
         },
-        1024: {
+        767: {
+            slidesPerView: 2,
+        },
+        1023: {
             slidesPerView: 3,
+        },
+        1280: {
+            slidesPerView: 4,
         },
     },
   });

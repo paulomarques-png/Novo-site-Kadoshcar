@@ -233,27 +233,23 @@ main section h2 {
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
 }
 
-article span{
-    height: 18.6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem 0;
-}
-
 .avaliacao {
     font-family: 'Hind Madurai', sans-serif;
     font-weight: 400;
     font-size: 1.8rem;
+    height: 24rem;
+    display: flex;
+    align-items: center;
 }
 
-.test-name {
+.nome {
     font-family: 'montserrat', sans-serif;
     font-weight: 700;
     font-size: 2rem;
 }
 
 .box-testemunhos article img:nth-child(4) {
+    max-width: 100%;
     margin: 2rem 0;
 }
 
@@ -262,6 +258,26 @@ article span{
     border-radius: 6rem;
     outline: 3px solid rgba(190, 22, 123, 1);
     outline-offset: -3px;
+}
+
+/* Estilização do carrossel */
+.swiper, #sobre {
+    padding: 4rem 3rem 6rem;
+}
+
+.card-wrapper {
+    margin: 0px 10px;
+    padding: 10px 10px;
+    overflow: hidden;
+}
+
+.swiper-pagination {
+    margin-bottom: 3rem;
+}
+
+.swiper-pagination > .swiper-pagination-bullet {
+    width: 1.2rem;
+    height: 1.2rem;
 }
 
 footer {

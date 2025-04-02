@@ -1,0 +1,30 @@
+.card-wrapper {
+    /* margin: 0px 60px; */
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+/* .swiper-wrapper {
+    width: 26.8rem;
+}
+
+.swiper-slide {
+    width: 26.8rem;
+} */
+ 
+.swiper {
+    padding: 4rem 3rem 6rem;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+}
+
+.swiper-pagination {
+    margin-bottom: 3rem;
+}
+
+.swiper-slide :nth-child(4) {
+    width: 100%;
+} 
