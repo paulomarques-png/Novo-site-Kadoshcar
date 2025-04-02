@@ -199,10 +199,10 @@ main section h2 {
     background-color: rgba(28, 36, 46, 1);
 }
 
-.box-parceiros {
+/* .box-parceiros {
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: center;
+} */
 
 .box-parceiros img {
     border-radius: 1.6rem;

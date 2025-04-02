@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/style-home.css">
     <link rel="stylesheet" href="css/responsive-home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles-carrossel.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
@@ -140,51 +142,82 @@
             </section>
             <section id="sobre">
                 <h2>O QUE FALAM SOBRE NÓS</h2>
-                <div class="box-testemunhos">
-                    <article>
-                        <head>
-                            <img src="/svg/icon-topo-aval.svg" alt="">
-                        </head>
-                        <span>
-                            <p class="avaliacao">Meu carro deu um probleminha no vidro parte elétrica mas o Kadosh me salvou enfrentou uma chuva daquelas e realizou o serviço que por sinal é de ótima qualidade com um preço acessível não confio meu carro em outra pessoa a não ser no Kadosh Car</p>
-                        </span>
-                        <p class="test-name">ADRIANA CRISTINA</p>
-                        <img src="/svg/estrelas-aval.svg" alt=""><br>
-                        <img src="/img/avatar-1.png" alt="">
-                    </article>
-                    <article>
-                        <head>
-                            <img src="/svg/icon-topo-aval.svg" alt="">
-                        </head>
-                        <span>
-                            <p class="avaliacao">Fui somente para instalar o insulfilm e acabei trocando a multimídia e colocando a câmera de ré! Serviço impecável, gostei bastante. Voltarei mais vezes e recomendo com certeza! Obrigada</p>
-                        </span>
-                        <p class="test-name">BEATRIZ SANTOS</p>
-                        <img src="/svg/estrelas-aval.svg" alt=""><br>
-                        <img src="/img/avatar-2.png" alt="">
-                    </article>
-                    <article>
-                        <head>
-                            <img src="/svg/icon-topo-aval.svg" alt="">
-                        </head>
-                        <span>
-                            <p class="avaliacao">Serviço e atendimento excepcionais! O Kadosh tem um atendimento diferenciado, trata o cliente com muita atenção. A equipe executa o serviço com maestria, cuidado, excelente acabamento e tudo isso com preço justo. Recomendo demais e já virei cliente.</p>
-                        </span>
-                        <p class="test-name">WALTER RIBEIRO</p>
-                        <img src="/svg/estrelas-aval.svg" alt=""><br>
-                        <img src="/img/avatar-3.png" alt="">
-                    </article>
-                    <article>
-                        <head>
-                            <img src="/svg/icon-topo-aval.svg" alt="">
-                        </head>
-                        <span>
-                            <p class="avaliacao">Instalaram a película mano carbon no meu carro. Instalação ficou muito top. Kadosh tirou um barulho chato nas portas do meu carro. Ótimo profissional recomendo demais. Em breve vou instalar led com eles.</p>
-                        </span>
-                        <p class="test-name">LEONARDO ALMEIDA</p>
-                        <img src="/svg/estrelas-aval.svg" alt=""><br>
-                        <img src="/img/avatar-4.png" alt="">
-                    </article>
+                <div class="swiper">
+                    <div class="box-testemunhos swiper-wrapper">
+                        <article class="swiper-slide">
+                            <head>
+                                <img src="/svg/icon-topo-aval.svg" alt="">
+                            </head>
+                            <span>
+                                <p class="avaliacao">Meu carro deu um probleminha no vidro parte elétrica mas o Kadosh me salvou enfrentou uma chuva daquelas e realizou o serviço que por sinal é de ótima qualidade com um preço acessível não confio meu carro em outra pessoa a não ser no Kadosh Car</p>
+                            </span>
+                            <p class="test-name">ADRIANA CRISTINA</p>
+                            <img src="/svg/estrelas-aval.svg" alt=""><br>
+                            <img src="/img/avatar-1.png" alt="">
+                        </article>
+                        <article class="swiper-slide">
+                            <head>
+                                <img src="/svg/icon-topo-aval.svg" alt="">
+                            </head>
+                            <span>
+                                <p class="avaliacao">Fui somente para instalar o insulfilm e acabei trocando a multimídia e colocando a câmera de ré! Serviço impecável, gostei bastante. Voltarei mais vezes e recomendo com certeza! Obrigada</p>
+                            </span>
+                            <p class="test-name">BEATRIZ SANTOS</p>
+                            <img src="/svg/estrelas-aval.svg" alt=""><br>
+                            <img src="/img/avatar-2.png" alt="">
+                        </article>
+                        <article class="swiper-slide">
+                            <head>
+                                <img src="/svg/icon-topo-aval.svg" alt="">
+                            </head>
+                            <span>
+                                <p class="avaliacao">Serviço e atendimento excepcionais! O Kadosh tem um atendimento diferenciado, trata o cliente com muita atenção. A equipe executa o serviço com maestria, cuidado, excelente acabamento e tudo isso com preço justo. Recomendo demais e já virei cliente.</p>
+                            </span>
+                            <p class="test-name">WALTER RIBEIRO</p>
+                            <img src="/svg/estrelas-aval.svg" alt=""><br>
+                            <img src="/img/avatar-3.png" alt="">
+                        </article>
+                        <article class="swiper-slide">
+                            <head>
+                                <img src="/svg/icon-topo-aval.svg" alt="">
+                            </head>
+                            <span>
+                                <p class="avaliacao">Instalaram a película mano carbon no meu carro. Instalação ficou muito top. Kadosh tirou um barulho chato nas portas do meu carro. Ótimo profissional recomendo demais. Em breve vou instalar led com eles.</p>
+                            </span>
+                            <p class="test-name">LEONARDO ALMEIDA</p>
+                            <img src="/svg/estrelas-aval.svg" alt=""><br>
+                            <img src="/img/avatar-4.png" alt="">
+                        </article>
+                        <article class="swiper-slide">
+                            <head>
+                                <img src="/svg/icon-topo-aval.svg" alt="">
+                            </head>
+                            <span>
+                                <p class="avaliacao">Instalaram a película mano carbon no meu carro. Instalação ficou muito top. Kadosh tirou um barulho chato nas portas do meu carro. Ótimo profissional recomendo demais. Em breve vou instalar led com eles.</p>
+                            </span>
+                            <p class="test-name">LEONARDO ALMEIDA</p>
+                            <img src="/svg/estrelas-aval.svg" alt=""><br>
+                            <img src="/img/avatar-4.png" alt="">
+                        </article>
+                        <article class="swiper-slide">
+                            <head>
+                                <img src="/svg/icon-topo-aval.svg" alt="">
+                            </head>
+                            <span>
+                                <p class="avaliacao">Instalaram a película mano carbon no meu carro. Instalação ficou muito top. Kadosh tirou um barulho chato nas portas do meu carro. Ótimo profissional recomendo demais. Em breve vou instalar led com eles.</p>
+                            </span>
+                            <p class="test-name">LEONARDO ALMEIDA</p>
+                            <img src="/svg/estrelas-aval.svg" alt=""><br>
+                            <img src="/img/avatar-4.png" alt="">
+                        </article>
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </section>
         </main>
@@ -238,5 +271,7 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
