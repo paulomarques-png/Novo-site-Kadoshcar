@@ -183,30 +183,30 @@ main section h2 {
 }
 
 .icon-card-1{
-    margin-top: -2rem;
+    margin-top: -16%;
 }
 .icon-card-2{
-    margin-top: -3rem;
+    margin-top: -13%;
 }
 .icon-card-3{
-    margin-top: -1.5rem;
+    margin-top: -13%;
 }
 .icon-card-4{
-    margin-top: -2rem;
+    margin-top: -10%;
 }
 
 #parceiros{
     background-color: rgba(28, 36, 46, 1);
 }
 
-/* .box-parceiros {
+.box-parceiros {
     display: flex;
-    justify-content: center;
-} */
+    justify-content: space-between;
+}
 
 .box-parceiros img {
     border-radius: 1.6rem;
-    border: .2rem solid rgb(129, 129, 129);
+    /* border: .2rem solid rgb(129, 129, 129); */
 }
 
 .box-servicos figcaption {
