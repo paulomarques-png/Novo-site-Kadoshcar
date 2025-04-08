@@ -35,3 +35,10 @@ new Swiper('.card-wrapper', {
     },
   });
   
+
+document.querySelector('.child-element').addEventListener('click', function() {
+    const parentElement = this.closest('.parent-element');
+    if (parentElement) {
+        parentElement.classList.toggle('active');
+    }
+});
