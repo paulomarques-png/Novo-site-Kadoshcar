@@ -625,6 +625,9 @@
         padding: 4rem 2rem 0;
         flex-flow: column-reverse;
         align-items: center;
+        background-image: url('/img/header-bg.png');
+        background-size: cover;
+        background-position: -63rem;
     }
 
     .hero {
@@ -790,11 +793,14 @@
 
     /*menu hamburguer*/
 
+    header{
+        padding: 2rem 2rem 0rem;
+    }
+
     .nav-header {
         align-items: center;
         width: 100%;
-        padding: 0 2rem;
-        /* background-color: rgb(139, 29, 84); */
+        padding: 2rem;
     }
 
     .logo {
@@ -806,17 +812,20 @@
         flex-direction: column;
         max-height: 0rem;
         position: absolute;
-        left: 0;
-        right: 0;
-        top: 21rem;
+        left: 2rem;
+        right: 2rem;
+        top: 22rem;
         overflow: hidden;
-        background: linear-gradient(0deg, rgba(0,0,0,9) 0%, rgba(0,0,0,0.7) 89%);
+        background-color: rgb(139, 29, 84);
         transition: all 0.5s ease-in-out;
     }
     
     .header-menu li{
         width: 100%;
         padding: 1rem;
+        border-top: 1px solid white;
+        width: 70%;
+        margin: 0 auto;
     }
 
     .header-menu li a{
@@ -827,7 +836,6 @@
 
     .menu-icon{
         display: block;
-        /* background-color: blueviolet; */
         position: relative;
         cursor: pointer;
         width: 2.4rem;
@@ -884,11 +892,6 @@
 
     .menu-hamburguer:checked+.menu-icon .nav-icon::after {   
         transform: rotate(45deg);
-    }
-
-    .menu-hamburguer:checked ~ .nav-header {
-        background-image: none;
-        background: rgb(139, 29, 84);
     }
 
     .hide {

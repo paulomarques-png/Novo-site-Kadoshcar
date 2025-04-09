@@ -34,11 +34,15 @@ new Swiper('.card-wrapper', {
         },
     },
   });
-  
 
-document.querySelector('.child-element').addEventListener('click', function() {
-    const parentElement = this.closest('.parent-element');
-    if (parentElement) {
-        parentElement.classList.toggle('active');
+document.querySelector('input[type="checkbox"]').addEventListener('change', function() {
+    const navheader = document.querySelector('.nav-header');
+    if (this.checked) {
+        navheader.style.transitionDelay = '0s'; // No delay when changing to the new color
+        navheader.style.backgroundColor = 'rgb(139, 29, 84)';
+    } else {
+        navheader.style.transition = 'background-color 0.2s ease'; // Smooth transition for background color
+        navheader.style.transitionDelay = '0.5s'; // Delay of 0.5s before resetting to default
+        navheader.style.backgroundColor = ''; // Reset to default
     }
 });
