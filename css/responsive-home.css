@@ -625,7 +625,7 @@
         padding: 4rem 2rem 0;
         flex-flow: column-reverse;
         align-items: center;
-        background-image: url('/img/header-bg.png');
+        background-image: url('../img/header-bg.png');
         background-size: cover;
         background-position: -63rem;
     }
