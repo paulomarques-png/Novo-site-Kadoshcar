@@ -1,0 +1,905 @@
+
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .container {
+        background-color: white;
+        max-width: 1028px;
+        border-radius: 20px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .sub-header {
+        max-width: 1028px;
+        padding: 0rem 4rem;
+        gap: 2rem;
+    }
+
+    header {
+        height: 47rem;
+        padding: 6rem 6rem;
+    }
+
+    .hero {
+        /* background-color: aquamarine; */
+        margin-top: 1rem;
+        max-width: 35rem;
+    }
+
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 3.8rem;
+        font-weight: 700;
+        line-height: 4.7rem;
+        text-align: center;
+    }
+
+    .botao-hero {
+        /* flex-wrap: wrap; */
+        justify-content: space-evenly;
+        gap: 1.2rem;
+    }
+
+    .btn-contato {
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul {
+        gap: 3rem;
+    }
+
+    main section {
+        padding: 3rem 6rem;
+    }
+
+    .box-servicos a{
+        width: 23.5%;
+        height: 80%;
+    }
+
+    .box-servicos a img{
+        width: 100%;
+    }
+
+    .box-servicos a p{
+        padding-bottom: 1.5rem;
+        width: 13.5rem;
+        margin-top: -1rem;
+    }
+
+    .box-servicos a span img{
+        width: 27%;
+        margin-right: 6.5%;
+    }
+
+    .box-parceiros img{
+        flex-wrap: wrap;
+        width: 18%;
+    }
+
+    #sobre h2{
+        margin-left: 3rem;
+    }
+
+    .avaliacao {
+        height: 16rem;
+        margin: 3rem 0;
+    }
+
+    .nome{
+        font-size: 2.2rem;
+    }
+
+    .sub-footer {
+        padding: 1.5rem 6rem;
+        justify-content: end;
+        gap: 2rem;
+    }
+
+    .preenchimento{
+        display: none;
+    }
+
+    .main-footer {
+        padding: 3.5rem 6rem;
+        gap: none;
+    }
+
+    .funcionamento-v1 {
+        display: block;
+        margin-top: 2.5rem;
+    }
+
+    .funcionamento-v2{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .container {
+        background-color: white;
+        max-width: 76.8rem;
+        border-radius: 2rem;
+        margin: auto;
+        overflow: hidden;
+    }
+    .sub-header {
+        max-width: 76.8rem;
+        padding: 0rem 4rem;
+        gap: 2rem;
+    }
+
+    header {
+        height: 44rem;
+        padding: 4rem 4rem 0;
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+
+    .hero {
+        width: 100%;
+        padding: 3rem 2rem 0;
+        align-items: center;
+        gap: 2rem;
+        background-color: rgba(0, 0, 0, .7);
+        border-radius: 1.5rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    h1 {
+        line-height: 4rem;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 3.8rem;
+    }
+
+    .botao-hero {
+        margin-bottom: -2rem;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .btn-contato {
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul {
+        gap: 3rem;
+    }
+
+    main section {
+        padding: 4rem;
+    }
+
+    .box-servicos a{
+        width: 31.5%;
+        height: 80%;
+    }
+
+    .box-servicos a img{
+        width: 100%;
+    }
+
+    .box-servicos a p{
+        padding-bottom: 1.5rem;
+        width: 13.5rem;
+        margin-top: -1rem;
+    }
+
+    .box-servicos a span img{
+        width: 27%;
+        margin-right: 6.5%;
+    }
+
+    .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
+        display: none;
+    }
+
+    .box-parceiros {
+        gap: 1rem;
+    }
+
+    .box-parceiros img{
+        width: 18.6%;
+    }
+
+    #sobre h2{
+        margin-left: 2rem;
+    }
+
+    .avaliacao {
+        height: 12rem;
+        margin: 3rem 0;
+    }
+
+    .nome{
+        font-size: 2rem;
+    }
+
+    .sub-footer {
+        padding: 1.5rem 6rem;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .preenchimento{
+        display: none;
+    }
+
+    .main-footer {
+        padding: 3.5rem 6rem;
+        gap: none;
+    }
+
+    .main-footer img:first-of-type {
+        display: none;
+    }
+
+    .funcionamento-v1 {
+        display: block;
+        margin-top: 2.5rem;
+    }
+
+    .funcionamento-v2{
+        display: none;
+    }
+}
+
+@media (min-width: 594px) and (max-width: 767px) {
+
+    .container {
+        background-color: white;
+        max-width: 59.4rem;
+        border-radius: 2rem;
+        margin: auto;
+        overflow: hidden;
+    }
+    .sub-header {
+        max-width: 59.4rem;
+        padding: 0rem 4rem;
+        gap: 2rem;
+    }
+
+    header {
+        padding: 4rem 2rem 0;
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+
+    .hero {
+        width: 100%;
+        padding: 3rem 2rem 0;
+        align-items: center;
+        gap: 1.5rem;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        /* background-color: rgba(0, 0, 0, .7); */
+        border-radius: 1.5rem 0rem 0rem 1.5rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3.5rem;
+    }
+
+    .botao-hero {
+        margin-bottom: -2rem;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .btn-contato {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 10rem;
+    }
+
+    nav ul {
+        gap: 3rem;
+    }
+
+    main section {
+        padding: 4rem;
+    }
+
+    .box-servicos a{
+        width: 48.3%;
+        height: 80%;
+    }
+
+    .box-servicos a img{
+        width: 100%;
+    }
+
+    .box-servicos a p{
+        padding-bottom: 1.5rem;
+        width: 13.5rem;
+        margin-top: -1rem;
+    }
+
+    .box-servicos a span img{
+        width: 27%;
+        margin-right: 6.5%;
+    }
+
+    .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
+        display: none;
+    }
+
+    .box-parceiros {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .box-parceiros img{
+        width: 30.6%;
+    }
+
+    #sobre h2{
+        margin-left: 2rem;
+    }
+
+    .avaliacao {
+        height: 22rem;
+        margin: 3rem 0;
+    }
+
+    .nome{
+        font-size: 1.7rem;
+    }
+
+    .sub-footer {
+        padding: 1.5rem 2rem;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .preenchimento{
+        display: none;
+    }
+
+    .sub-footer p {
+        font-family: 'montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1.6rem;
+    }
+
+    .sub-footer div a img {
+        width: 3rem;
+    }
+
+    .main-footer {
+        padding: 3.5rem 2rem;
+        gap: 4rem 3rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main-footer div h3 {
+        font-size: 1.8rem;
+    }
+
+    .main-footer img:last-child {
+        margin-top: -2.5rem;
+    }
+
+    .funcionamento-v1 {
+        display: none;
+        margin-top: 2.5rem;
+    }
+
+}
+
+@media (min-width: 467px) and (max-width: 593px) {
+
+    html {
+        padding: 2rem 0rem 0rem;
+    }
+
+    .container {
+        background-color: white;
+        max-width:59.4;
+        border-radius: 0rem;
+    }
+
+    .sub-header {
+        max-width: 76.8rem;
+        padding: 0rem 4rem;
+        gap: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .sub-header p{
+       display: none;
+    }
+
+    .sub-header a {
+        padding: 1.2rem 1.2rem;
+        border-radius: 3rem;
+    }
+
+    .logo {
+        width: 9rem;
+    }
+
+    header {
+        padding: 4rem 2rem 0;
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+
+    .hero {
+        width: 100%;
+        padding: 3rem 2rem 0;
+        align-items: center;
+        gap: 1.5rem;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        /* background-color: rgba(0, 0, 0, .7); */
+        border-radius: 1.5rem 0rem 0rem 1.5rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3.5rem;
+    }
+
+    .botao-hero {
+        margin-bottom: -2rem;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .btn-contato {
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul {
+        gap: 3rem;
+    }
+
+    main section {
+        padding: 4rem;
+    }
+
+    .box-servicos a{
+        width: 48.3%;
+        height: 80%;
+    }
+
+    .box-servicos a img{
+        width: 100%;
+    }
+
+    .box-servicos a p{
+        padding-bottom: 1.5rem;
+        width: 13.5rem;
+        margin-top: -1rem;
+    }
+
+    .box-servicos a span img{
+        width: 27%;
+        margin-right: 6.5%;
+    }
+
+    .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
+        display: none;
+    }
+
+    .box-servicos a p{
+        padding-bottom: 1.5rem;
+        width: 13.5rem;
+        margin-top: -1rem;
+    }
+
+    .box-servicos a span img{
+        width: 27%;
+        margin-right: 6.5%;
+    }
+
+    .icon-card-1{
+        margin-top: -16%;
+    }
+    .icon-card-2{
+        margin-top: -13%;
+    }
+    .icon-card-3{
+        margin-top: -13%;
+    }
+    .icon-card-4{
+        margin-top: -10%;
+    }
+
+    .box-parceiros {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3%;
+        row-gap: 1.5rem;
+    }
+
+    .box-parceiros img{
+       width: 31.3%;
+    }
+
+    #sobre h2{
+        margin-left: 2rem;
+    }
+
+    .avaliacao {
+        height: auto;
+        margin: 3rem 0;
+    }
+
+    .sub-footer {
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .preenchimento{
+        display: none;
+    }
+
+    .sub-footer{
+        gap: 4rem;
+    }
+
+    .sub-footer p {
+        display: none;
+    }
+
+    .sub-footer div a img {
+        width: 3.5rem;
+    }
+
+    .main-footer {
+        padding: 3.5rem 3rem;
+        gap: 4rem 4rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main-footer div h3{
+        font-size: 1.8rem;
+    }
+
+    .main-footer img:last-child {
+        margin-top: -2.5rem;
+    }
+
+    .funcionamento-v1 {
+        display: none;
+        margin-top: 2.5rem;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 466px) {
+
+    html {
+        padding: 2rem 0rem 0rem;
+    }
+
+    .container {
+        background-color: white;
+        max-width:59.4;
+        border-radius: 0rem;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .sub-header {
+        max-width: 76.8rem;
+        padding: 0rem 4rem;
+        gap: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .sub-header p{
+       display: none;
+    }
+
+    .sub-header a {
+        padding: 1.2rem 1.2rem;
+        border-radius: 3rem;
+    }
+
+    header {
+        padding: 4rem 2rem 0;
+        flex-flow: column-reverse;
+        align-items: center;
+        background-image: url('../img/header-bg.png');
+        background-size: cover;
+        background-position: -63rem;
+    }
+
+    .hero {
+        width: 100%;
+        padding: 3rem 2rem 0;
+        align-items: center;
+        gap: 1.5rem;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+        /* background-color: rgba(0, 0, 0, .7); */
+        border-radius: 1.5rem 0rem 0rem 1.5rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3.5rem;
+    }
+
+    .botao-hero {
+        margin-bottom: -2rem;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .btn-contato {
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul {
+        gap: 3rem;
+    }
+
+    nav ul img {
+        width: 9rem;
+    }
+
+    main section {
+        padding: 4rem;
+    }
+
+    .box-servicos {
+
+        justify-content: center;
+        row-gap: 1.5rem;
+    }
+
+    .box-servicos a p{
+        padding-bottom: 1.5rem;
+        width: 13.5rem;
+        margin-top: -1rem;
+    }
+
+    .box-servicos a span img{
+        width: 27%;
+        margin-right: 6.5%;
+    }
+
+    .box-servicos a:nth-child(5), .box-servicos a:nth-child(6), .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
+        display: none;
+    }
+
+    .box-servicos a p{
+        padding-bottom: 1.5rem;
+        width: 13.5rem;
+        margin-top: -1rem;
+    }
+
+    .box-servicos a span img{
+        width: 27%;
+        margin-right: 6.5%;
+    }
+
+    .icon-card-1{
+        margin-top: -16%;
+    }
+    .icon-card-2{
+        margin-top: -13%;
+    }
+    .icon-card-3{
+        margin-top: -13%;
+    }
+    .icon-card-4{
+        margin-top: -10%;
+    }
+
+    .box-parceiros {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3%;
+        row-gap: 1.5rem;
+    }
+
+    .box-parceiros img{
+       width: 48%;
+    }
+
+    .avaliacao {
+        height: auto;
+        margin: 3rem 0;
+    }
+
+    .sub-footer {
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    #sobre h2{
+        margin-left: 2rem;
+    }
+
+    .preenchimento{
+        display: none;
+    }
+
+    .sub-footer{
+        gap: 4rem;
+    }
+
+    .sub-footer p {
+        display: none;
+    }
+
+    .sub-footer div a img {
+        width: 3.5rem;
+    }
+
+    .main-footer {
+        padding: 3.5rem 4rem;
+        gap: 4rem 4rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .main-footer div h3 {
+        font-size: 1.8rem;
+    }
+
+    .main-footer div nav ul {
+        align-items: center;
+    }
+
+    .main-footer img:last-child {
+        margin-top: -2.5rem;
+    }
+
+    .funcionamento-v1 {
+        display: none;
+        margin-top: 2.5rem;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 550px) {
+
+    /*menu hamburguer*/
+
+    header{
+        padding: 2rem 2rem 0rem;
+    }
+
+    .nav-header {
+        align-items: center;
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .logo {
+        width: 8rem;
+    }
+
+    .header-menu{
+        gap: 0rem;
+        flex-direction: column;
+        max-height: 0rem;
+        position: absolute;
+        left: 2rem;
+        right: 2rem;
+        top: 22rem;
+        overflow: hidden;
+        background-color: rgb(139, 29, 84);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .header-menu li{
+        width: 100%;
+        padding: 1rem;
+        border-top: 1px solid white;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .header-menu li a{
+        display: block;
+        padding: 2rem 0rem;
+        text-align: center;
+    }
+
+    .menu-icon{
+        display: block;
+        position: relative;
+        cursor: pointer;
+        width: 2.4rem;
+        height: 2rem;
+        /* top: 5px; */
+    }
+
+    .nav-icon  {
+        background-color: white;
+        display: block;
+        top: 8px;
+        width: 2.4rem;
+        height: .2rem;
+        position: absolute;
+    }
+
+    .nav-icon::after, .nav-icon::before {
+        content: "";
+        background-color: white;
+        display: block;
+        height: .2rem;
+        width: 2.4rem;
+        position: absolute;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .nav-icon::after {
+        transform: translateY(.8rem);
+
+    }
+
+    .nav-icon::before {
+        transform: translateY(-.8rem);
+
+    }
+
+    .menu-hamburguer:checked ~ .header-menu {
+        max-height:100vh;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .header-menu:focus-within {
+        max-height:100vh;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .menu-hamburguer:checked+.menu-icon .nav-icon {   
+        background-color: transparent;
+    }
+
+    .menu-hamburguer:checked+.menu-icon .nav-icon::before {   
+        transform: rotate(-45deg);
+    }
+
+    .menu-hamburguer:checked+.menu-icon .nav-icon::after {   
+        transform: rotate(45deg);
+    }
+
+    .hide {
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0;
+        border: 0; 
+        height: 0;
+        width: 0;
+        overflow: hidden;
+    }
+}
+
+
+@media (min-width: 551px) {
+    .menu-hamburguer, .menu-icon {
+        display: none;
+    }
+}
