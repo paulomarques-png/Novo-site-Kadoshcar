@@ -16,33 +16,7 @@
     }
 
     header {
-        height: 47rem;
-        padding: 6rem 6rem;
-    }
-
-    .hero {
-        /* background-color: aquamarine; */
-        margin-top: 1rem;
-        max-width: 35rem;
-    }
-
-    h1 {
-        font-family: "Montserrat", sans-serif;
-        font-size: 3.8rem;
-        font-weight: 700;
-        line-height: 4.7rem;
-        text-align: center;
-    }
-
-    .botao-hero {
-        /* flex-wrap: wrap; */
-        justify-content: space-evenly;
-        gap: 1.2rem;
-    }
-
-    .btn-contato {
-        width: 100%;
-        justify-content: center;
+        padding-right: 6rem;
     }
 
     nav ul {
@@ -51,6 +25,93 @@
 
     main section {
         padding: 3rem 6rem;
+    }
+    #topo {
+        padding: 0 6rem 0;
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem
+    }
+
+    .img-box-topo-1 {
+        max-width: 32rem;
+    }
+
+    .titulo-topo-1{
+        display: none;
+    }
+
+    .box-topo-2 {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .titulo-topo-2 h4{
+        font-family: 'montserrat', sans-serif;
+        font-size: 7.69rem;
+        font-weight: 900;
+        color: rgba(190, 22, 123, 1);
+    }
+
+    .btitulo-topo-2 h5{
+        font-family: 'montserrat', sans-serif;
+        font-size: 2.59rem;
+        font-weight: 900;
+        color: rgba(28, 36, 46, 1);
+    }
+
+    .imgs-topo{
+        display: flex;
+        justify-content: space-between;
+        gap: 1.5rem;
+    }
+
+    .imgs-topo span{
+        max-width: 27rem;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+    .imgs-topo span img{
+        max-width: 100%;
+    }
+
+    .imgs-topo span p{
+        height: 10rem;
+        padding: 1.5rem;
+        margin-top: -10.15rem;
+        position: relative;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-family: 'montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1.7rem;
+        color: white;
+        line-height: 1.8rem;
+    }
+
+    .titulo {
+        margin-bottom: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .titulo span{
+        width: 63.3%;
+        height: 3.061rem;
+        background-image: url('../img/divisoria-pink.png');
+        background-repeat: repeat-x;
+    }
+
+    .box-servicos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 1.5rem;
     }
 
     .box-servicos a{
@@ -71,24 +132,6 @@
     .box-servicos a span img{
         width: 27%;
         margin-right: 6.5%;
-    }
-
-    .box-parceiros img{
-        flex-wrap: wrap;
-        width: 18%;
-    }
-
-    #sobre h2{
-        margin-left: 3rem;
-    }
-
-    .avaliacao {
-        height: 16rem;
-        margin: 3rem 0;
-    }
-
-    .nome{
-        font-size: 2.2rem;
     }
 
     .sub-footer {
@@ -132,39 +175,11 @@
     }
 
     header {
-        height: 44rem;
-        padding: 4rem 4rem 0;
-        flex-flow: column-reverse;
-        align-items: center;
+        padding-right: 4rem;
     }
 
-    .hero {
-        width: 100%;
-        padding: 3rem 2rem 0;
-        align-items: center;
-        gap: 2rem;
-        background-color: rgba(0, 0, 0, .7);
-        border-radius: 1.5rem;
-        line-height: 3rem;
-        text-align: center;
-    }
-
-    h1 {
-        line-height: 4rem;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 3.8rem;
-    }
-
-    .botao-hero {
-        margin-bottom: -2rem;
-        justify-content: space-between;
-        gap: 2rem;
-    }
-
-    .btn-contato {
-        width: 100%;
-        justify-content: center;
+    .sub-logo{
+        margin-left: -30px;
     }
 
     nav ul {
@@ -172,7 +187,117 @@
     }
 
     main section {
-        padding: 4rem;
+        padding: 3rem 6rem;
+    }
+
+    #topo {
+        padding: 3rem 6rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .box-topo-1 {
+        width: 53%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: .5rem;
+        /* background-color: aqua; */
+    }
+
+    .titulo-topo-1 {
+        display: block;
+    }
+
+    .titulo-topo-1 h4 {
+        font-family: 'montserrat', sans-serif;
+        font-size: 4.7rem;
+        font-weight: 900;
+        color: rgba(190, 22, 123, 1);
+    }
+
+    .titulo-topo-1 h5 {
+        font-family: 'montserrat', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 900;
+        color: rgba(28, 36, 46, 1);
+    }
+
+    .box-topo-2 {
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo-topo-2 h4{
+        font-family: 'montserrat', sans-serif;
+        font-size: 7.328rem;
+        font-weight: 900;
+        color: rgba(190, 22, 123, 1);
+    }
+
+    .titulo-topo-2 h5{
+        font-family: 'montserrat', sans-serif;
+        font-size: 2.48rem;
+        font-weight: 900;
+        color: rgba(28, 36, 46, 1);
+    }
+
+    .titulo-topo-2{
+        display: none;
+    }
+
+    .imgs-topo{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .imgs-topo span{
+        max-width: 27rem;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+
+    .imgs-topo span img{
+        max-width: 100%;
+    }
+
+    .imgs-topo span p{
+        height: 10rem;
+        padding: 1.5rem;
+        margin-top: -10.15rem;
+        position: relative;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-family: 'montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1.7rem;
+        color: white;
+        line-height: 1.8rem;
+    }
+
+    .titulo {
+        margin-bottom: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .titulo span{
+        width: 46.3%;
+        height: 3.061rem;
+        background-image: url('../img/divisoria-pink.png');
+        background-repeat: repeat-x;
+    }
+
+    .box-servicos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 1.5rem;
     }
 
     .box-servicos a{
@@ -258,6 +383,7 @@
         margin: auto;
         overflow: hidden;
     }
+
     .sub-header {
         max-width: 59.4rem;
         padding: 0rem 4rem;
@@ -265,43 +391,11 @@
     }
 
     header {
-        padding: 4rem 2rem 0;
-        flex-flow: column-reverse;
-        align-items: center;
+        padding-right: 4rem;
     }
 
-    .hero {
-        width: 100%;
-        padding: 3rem 2rem 0;
-        align-items: center;
-        gap: 1.5rem;
-        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-        /* background-color: rgba(0, 0, 0, .7); */
-        border-radius: 1.5rem 0rem 0rem 1.5rem;
-        line-height: 3rem;
-        text-align: center;
-    }
-
-    h1 {
-        font-family: "Montserrat", sans-serif;
-        font-size: 3rem;
-        font-weight: 700;
-        line-height: 3.5rem;
-    }
-
-    .botao-hero {
-        margin-bottom: -2rem;
-        justify-content: space-between;
-        gap: 2rem;
-    }
-
-    .btn-contato {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .logo {
-        width: 10rem;
+    .sub-logo{
+        margin-left: -50px;
     }
 
     nav ul {
@@ -310,6 +404,100 @@
 
     main section {
         padding: 4rem;
+    }
+
+    #topo {
+        padding: 3rem 4rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .box-topo-1 {
+        display: none;
+        /* width: 53%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: .5rem; */
+    }
+
+    .titulo-topo-1 h4 {
+        font-family: 'montserrat', sans-serif;
+        font-size: 4.7rem;
+        font-weight: 900;
+        color: rgba(190, 22, 123, 1);
+    }
+
+    .titulo-topo-1 h5 {
+        font-family: 'montserrat', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 900;
+        color: rgba(28, 36, 46, 1);
+    }
+
+    .box-topo-2 {
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo-topo-2 h4{
+        font-family: 'montserrat', sans-serif;
+        font-size: 7.09rem;
+        font-weight: 900;
+        color: rgba(190, 22, 123, 1);
+    }
+
+    .titulo-topo-2 h5{
+        font-family: 'montserrat', sans-serif;
+        font-size: 2.38rem;
+        font-weight: 900;
+        color: rgba(28, 36, 46, 1);
+    }
+
+    .imgs-topo{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+
+    .imgs-topo span{
+        width:  252.25px;
+        height: 265px;
+    }
+
+    .imgs-topo span img{
+        height: 100%;
+    }
+
+    .imgs-topo span p{
+        height: 10rem;
+        padding: 1.5rem;
+        margin-top: -10.15rem;
+        position: relative;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-family: 'montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1.7rem;
+        color: white;
+        line-height: 1.8rem;
+    }
+
+    .titulo {
+        margin-bottom: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .titulo span{
+        width: 34.3%;
+        height: 3.061rem;
+        background-image: url('../img/divisoria-pink.png');
+        background-repeat: repeat-x;
     }
 
     .box-servicos a{
@@ -811,7 +999,7 @@
         background-color: rgb(139, 29, 84);
         transition: all 0.5s ease-in-out;
     }
-    
+
     .header-menu li{
         width: 100%;
         padding: 1rem;
@@ -874,15 +1062,15 @@
         transition: all 0.5s ease-in-out;
     }
 
-    .menu-hamburguer:checked+.menu-icon .nav-icon {   
+    .menu-hamburguer:checked+.menu-icon .nav-icon {
         background-color: transparent;
     }
 
-    .menu-hamburguer:checked+.menu-icon .nav-icon::before {   
+    .menu-hamburguer:checked+.menu-icon .nav-icon::before {
         transform: rotate(-45deg);
     }
 
-    .menu-hamburguer:checked+.menu-icon .nav-icon::after {   
+    .menu-hamburguer:checked+.menu-icon .nav-icon::after {
         transform: rotate(45deg);
     }
 
@@ -890,7 +1078,7 @@
         position: absolute;
         clip: rect(1px, 1px, 1px, 1px);
         padding: 0;
-        border: 0; 
+        border: 0;
         height: 0;
         width: 0;
         overflow: hidden;
