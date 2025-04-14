@@ -94,14 +94,13 @@ main section {
 }
 
 main section h2 {
-    margin-bottom: 1.9rem;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 800;
     color: rgba(190, 22, 123, 1);
 }
 
 #topo {
-    padding-top: 0;
+    padding: 0 8rem 0;
     display: flex;
     justify-content: space-between;
 }
@@ -115,8 +114,6 @@ main section h2 {
 }
 
 .box-topo h4{
-    margin-block-start: -1.33rem;
-    margin-block-end: -1.33rem;
     font-family: 'montserrat', sans-serif;
     font-size: 9.6rem;
     font-weight: 900;
@@ -160,6 +157,22 @@ main section h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 1.5rem;
+}
+
+.titulo {
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: royalblue; */
+}
+
+.titulo span{
+    width: 69.1%;
+    height: 3.061rem;
+    /* background-color: rgba(121, 110, 117,.2); */
+    background-image: url('../img/divisoria-pink.png');
+    background-repeat: repeat-x;
 }
 
 .box-servicos a{
