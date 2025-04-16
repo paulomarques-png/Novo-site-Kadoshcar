@@ -44,8 +44,22 @@ header {
     align-items: center;
 }
 
+.header-sub-logo {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgb(190, 22, 123);
+    /* background-color: aqua; */
+}
+
 .sub-logo {
-    height: 7.7rem;
+    margin-left: 8rem;
+}
+
+.complemento-sub-logo {
+    height: 7.6rem;
+    position: relative;
+    left: 5.5rem;
 }
 
 .logo {
