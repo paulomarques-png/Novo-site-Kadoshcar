@@ -26,11 +26,11 @@
         background-color: rgb(190, 22, 123);
         /* background-color: aqua; */
     }
-    
+
     .sub-logo {
         margin-left: 6rem;
     }
-    
+
     .complemento-sub-logo {
         position: relative;
         left: 5.5rem;
@@ -43,112 +43,135 @@
     main section {
         padding: 3rem 6rem;
     }
-    #topo {
-        padding: 0 6rem 0;
-        display: flex;
-        justify-content: space-between;
-        gap: 3rem
+
+    .hero-banner{
+        padding-top: 4rem;
+        padding-bottom: 1rem;
     }
 
-    .img-box-topo-1 {
-        max-width: 32rem;
-    }
-
-    .titulo-topo-1{
-        display: none;
-    }
-
-    .box-topo-2 {
-        margin-top: 3rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 1rem;
-    }
-
-    .titulo-topo-2 h4{
-        font-family: 'montserrat', sans-serif;
-        font-size: 7.69rem;
-        font-weight: 900;
+    h1 {
+        font-size: 3.75rem;
+        font-weight: 700;
         color: rgba(190, 22, 123, 1);
+        position: absolute;
+        top: 22.5rem;
+        z-index: 2;
     }
 
-    .btitulo-topo-2 h5{
-        font-family: 'montserrat', sans-serif;
-        font-size: 2.59rem;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
-    }
-
-    .imgs-topo{
-        display: flex;
-        justify-content: space-between;
-        gap: 1.5rem;
-    }
-
-    .imgs-topo div{
-        max-width: 27rem;
-        border-radius: 30px;
-        overflow: hidden;
-    }
-
-    .imgs-topo div img{
-        max-width: 100%;
-    }
-
-    .imgs-topo div p{
-        height: 10rem;
-        padding: 1.5rem;
-        margin-top: -10.15rem;
+    .img-banner {
         position: relative;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.7);
-        font-family: 'montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 1.7rem;
-        color: white;
-        line-height: 1.8rem;
+        width: 90.8rem;
     }
 
-    .titulo {
-        margin-bottom: 2.5rem;
+
+    .historia {
+        height: 385px;
+        padding-top: 1rem;
+        display: flex;
+        /* background-color: rosybrown; */
+    }
+
+    .texto {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 3rem;
+        row-gap: 1rem;
+        /* background-color: royalblue; */
+    }
+
+    .texto h2 {
+        width: 100%;
+        line-height: 0rem;
+        /* background-color: seagreen; */
+    }
+
+    .linha-1 {
+        font-size: 5.5rem;
+        font-weight: 800;
+        /* color: rgba(190, 22, 123, 1); */
+    }
+
+    .linha-2 {
+        font-size: 5.5rem;
+        font-weight: 100;
+    }
+
+    .texto p {
+        font-family: 'montserrat', sans-serif;
+        font-size: 1.7rem;
+        line-height: 1.9rem;
+    }
+
+    .texto p:first-of-type {
+        width: 100%;
+        /* background-color: rgba(190, 22, 123, 1); */
+    }
+
+    .video {
+        height: 452px;
+        position: relative;
+        top: -6.1rem;
+        border-radius: 30px;;
+    }
+
+    .avaliacoes{
+        background-color: rgba(190, 22, 123, 1);
+    }
+
+    .avaliacoes h2 {
+        padding: 0 0 2rem ;
+        font-size: 2.6rem;
+        color: white;
+    }
+
+    .box-testemunhos {
+        padding-bottom: 4rem;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+
+    .box-testemunhos article {
+        width: 32%;
+        padding: 3rem 2rem ;
+        border-radius: 1.4rem;
+        text-align: center;
+        color: rgb(31, 31, 31);
+        background-color: rgba(255, 255, 255, 1);
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+    }
+
+    .avaliacao {
+        font-family: 'Hind Madurai', sans-serif;
+        font-weight: 400;
+        font-size: 1.8rem;
+        height: 18rem;
+        display: flex;
         align-items: center;
     }
 
-    .titulo span{
-        width: 63.3%;
-        height: 3.061rem;
-        background-image: url('../img/divisoria-pink.png');
-        background-repeat: repeat-x;
+    .nome {
+        font-family: 'montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
     }
 
-    .box-servicos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        row-gap: 1.5rem;
+    .box-testemunhos article img:nth-child(4) {
+        max-width: 100%;
+        margin: 2rem 0 0;
     }
 
-    .box-servicos a{
-        width: 23.5%;
-        height: 80%;
+    .box-testemunhos > .reviews {
+        background-color: rgba(190, 22, 123, 1);
     }
 
-    .box-servicos a img{
-        width: 100%;
-    }
+    .reviews img {
+        width: 90%;
+        position: relative;
+        bottom: -7rem;
 
-    .box-servicos a p{
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
-    }
-
-    .box-servicos a span img{
-        width: 27%;
-        margin-right: 6.5%;
     }
 
     .sub-footer {
@@ -202,11 +225,11 @@
         background-color: rgb(190, 22, 123);
         /* background-color: aqua; */
     }
-    
+
     .sub-logo {
         margin-left: 6rem;
     }
-    
+
     .complemento-sub-logo {
         position: relative;
         left: 5.5rem;
@@ -220,159 +243,145 @@
         padding: 3rem 6rem;
     }
 
-    #topo {
-        padding: 3rem 6rem 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: start;
+    .hero-banner{
+        padding-top: 4rem;
+        padding-bottom: 1rem;
     }
 
-    .box-topo-1 {
-        width: 53%;
-        display: flex;
-        flex-direction: column-reverse;
-        gap: .5rem;
-        /* background-color: aqua; */
-    }
-
-    .titulo-topo-1 {
-        display: block;
-    }
-
-    .titulo-topo-1 h4 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 4.7rem;
-        font-weight: 900;
+    h1 {
+        font-size: 2.65rem;
+        font-weight: 700;
         color: rgba(190, 22, 123, 1);
+        position: absolute;
+        top: 22.5rem;
+        z-index: 2;
     }
 
-    .titulo-topo-1 h5 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 1.8rem;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
-    }
-
-    .box-topo-2 {
-        margin-top: 0rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .titulo-topo-2 h4{
-        font-family: 'montserrat', sans-serif;
-        font-size: 7.328rem;
-        font-weight: 900;
-        color: rgba(190, 22, 123, 1);
-    }
-
-    .titulo-topo-2 h5{
-        font-family: 'montserrat', sans-serif;
-        font-size: 2.48rem;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
-    }
-
-    .titulo-topo-2{
-        display: none;
-    }
-
-    .imgs-topo{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    .imgs-topo div{
-        max-width: 27rem;
-        border-radius: 30px;
-        overflow: hidden;
-    }
-
-    .imgs-topo div img{
-        max-width: 100%;
-    }
-
-    .imgs-topo div p{
-        height: 10rem;
-        padding: 1.5rem;
-        margin-top: -10.15rem;
+    .img-banner {
         position: relative;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.7);
-        font-family: 'montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 1.7rem;
-        color: white;
-        line-height: 1.8rem;
+        width: 64.8rem;
     }
 
-    .titulo {
-        margin-bottom: 2.5rem;
+
+    .historia {
+        height: 385px;
+        padding-top: 1rem;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
+        /* background-color: rosybrown; */
     }
 
-    .titulo span{
-        width: 46.3%;
-        height: 3.061rem;
-        background-image: url('../img/divisoria-pink.png');
-        background-repeat: repeat-x;
-    }
-
-    .box-servicos {
+    .texto {
+        height: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        row-gap: 1.5rem;
+        column-gap: 3rem;
+        row-gap: 1rem;
+        /* background-color: royalblue; */
     }
 
-    .box-servicos a{
-        width: 31.5%;
-        height: 80%;
-    }
-
-    .box-servicos a img{
+    .texto h2 {
         width: 100%;
+        line-height: 0rem;
+        /* background-color: seagreen; */
     }
 
-    .box-servicos a p{
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
+    .linha-1 {
+        font-size: 6.06rem;
+        font-weight: 800;
+        /* color: rgba(190, 22, 123, 1); */
     }
 
-    .box-servicos a span img{
-        width: 27%;
-        margin-right: 6.5%;
+    .linha-2 {
+        font-size: 6.06rem;
+        font-weight: 100;
     }
 
-    .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
-        display: none;
+    .texto p {
+        font-family: 'montserrat', sans-serif;
+        font-size: 1.7rem;
+        line-height: 1.9rem;
+        text-align: center;
     }
 
-    .box-parceiros {
-        gap: 1rem;
+    .texto p:first-of-type {
+        width: 100%;
+        /* background-color: rgba(190, 22, 123, 1); */
     }
 
-    .box-parceiros img{
-        width: 18.6%;
+    .video {
+        width: 313px;
+        position: relative;
+        top: -.6rem;
+        border-radius: 30px;
+        /* visibility: hidden; */
     }
 
-    #sobre h2{
-        margin-left: 2rem;
+    .avaliacoes{
+        background-color: rgba(190, 22, 123, 1);
+    }
+
+    .avaliacoes h2 {
+        visibility: hidden;
+    }
+
+    .box-testemunhos {
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+    
+    .box-testemunhos :nth-child(3) {
+        order: -1;
+    }
+    
+    .box-testemunhos :nth-child(6) {
+        order: -2;
+        visibility: hidden;
+    }
+
+    .box-testemunhos article {
+        width: 48.4%;
+        padding: 3rem 2rem ;
+        border-radius: 1.4rem;
+        text-align: center;
+        color: rgb(31, 31, 31);
+        background-color: rgba(255, 255, 255, 1);
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
     }
 
     .avaliacao {
-        height: 12rem;
-        margin: 3rem 0;
+        font-family: 'Hind Madurai', sans-serif;
+        font-weight: 400;
+        font-size: 1.8rem;
+        height: 18rem;
+        display: flex;
+        align-items: center;
     }
 
-    .nome{
+    .nome {
+        font-family: 'montserrat', sans-serif;
+        font-weight: 700;
         font-size: 2rem;
+    }
+
+    .box-testemunhos article img:nth-child(4) {
+        max-width: 100%;
+        margin: 2rem 0 0;
+    }
+
+    .box-testemunhos > .reviews {
+        background-color: rgba(190, 22, 123, 1);
+    }
+
+    .reviews img {
+        width: 90%;
+        position: relative;
+        bottom: -4rem;
+
     }
 
     .sub-footer {
@@ -432,11 +441,11 @@
         background-color: rgb(190, 22, 123);
         /* background-color: aqua; */
     }
-    
+
     .sub-logo {
         margin-left: 3.5rem;
     }
-    
+
     .complemento-sub-logo {
         position: relative;
         left: 1.5rem;
@@ -454,145 +463,148 @@
         padding: 4rem;
     }
 
-    #topo {
-        padding: 3rem 4rem 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: start;
+    .hero-banner{
+        padding-top: 2.5rem;
+        padding-bottom: 1rem;
     }
 
-    .box-topo-1 {
-        display: none;
-        /* width: 53%;
-        display: flex;
-        flex-direction: column-reverse;
-        gap: .5rem; */
-    }
-
-    .titulo-topo-1 h4 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 4.7rem;
-        font-weight: 900;
+    h1 {
+        font-size: 2.1rem;
+        font-weight: 700;
         color: rgba(190, 22, 123, 1);
+        position: absolute;
+        top: 22.5rem;
+        z-index: 2;
+        visibility: hidden;
     }
 
-    .titulo-topo-1 h5 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 1.8rem;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
+    .img-banner {
+        position: relative;
+        width: 51.4rem;
     }
 
-    .box-topo-2 {
-        margin-top: 0rem;
+
+    .historia {
+        height: 405px;
+        padding-top: 1rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /* background-color: rosybrown; */
     }
 
-    .titulo-topo-2 h4{
-        font-family: 'montserrat', sans-serif;
-        font-size: 7.09rem;
-        font-weight: 900;
-        color: rgba(190, 22, 123, 1);
-    }
-
-    .titulo-topo-2 h5{
-        font-family: 'montserrat', sans-serif;
-        font-size: 2.38rem;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
-    }
-
-    .imgs-topo{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        gap: 1.5rem;
-    }
-
-    .imgs-topo div{
-        width:  252.25px;
-        height: 265px;
-    }
-
-    .imgs-topo div img{
+    .texto {
         height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 3rem;
+        row-gap: 1rem;
+        /* background-color: royalblue; */
     }
 
-    .imgs-topo div p{
-        height: 10rem;
-        padding: 1.5rem;
-        margin-top: -10.15rem;
-        position: relative;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.7);
+    .texto h2 {
+        width: 100%;
+        line-height: 0rem;
+        /* background-color: seagreen; */
+    }
+
+    .linha-1 {
+        font-size: 4.6rem;
+        font-weight: 800;
+        /* color: rgba(190, 22, 123, 1); */
+    }
+
+    .linha-2 {
+        font-size: 4.6rem;
+        font-weight: 800;
+    }
+
+    .texto p {
         font-family: 'montserrat', sans-serif;
-        font-weight: 400;
         font-size: 1.7rem;
-        color: white;
-        line-height: 1.8rem;
+        line-height: 1.9rem;
+        text-align: center;
     }
 
-    .titulo {
-        margin-bottom: 2.5rem;
+    .texto p:first-of-type {
+        width: 100%;
+        /* background-color: rgba(190, 22, 123, 1); */
+    }
+
+    .video {
+        width: 248px;
+        position: relative;
+        top: -.6rem;
+        border-radius: 30px;
+        /* visibility: hidden; */
+    }
+
+    .avaliacoes{
+        background-color: rgba(190, 22, 123, 1);
+    }
+
+    .avaliacoes h2 {
+        visibility: hidden;
+    }
+
+    .box-testemunhos {
+        margin-top: -15.4rem;
+        padding-bottom: 0rem;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-    }
-
-    .titulo span{
-        width: 34.3%;
-        height: 3.061rem;
-        background-image: url('../img/divisoria-pink.png');
-        background-repeat: repeat-x;
-    }
-
-    .box-servicos a{
-        width: 48.3%;
-        height: 80%;
-    }
-
-    .box-servicos a img{
-        width: 100%;
-    }
-
-    .box-servicos a p{
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
-    }
-
-    .box-servicos a span img{
-        width: 27%;
-        margin-right: 6.5%;
-    }
-
-    .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
-        display: none;
-    }
-
-    .box-parceiros {
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 2rem;
+        align-items: center;
+        row-gap: 2rem;
     }
 
-    .box-parceiros img{
-        width: 30.6%;
+    .box-testemunhos article {
+        width: 48.4%;
+        padding: 3rem 2rem ;
+        border-radius: 1.4rem;
+        text-align: center;
+        color: rgb(31, 31, 31);
+        background-color: rgba(255, 255, 255, 1);
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
     }
-
-    #sobre h2{
-        margin-left: 2rem;
+    
+    .box-testemunhos :nth-child(3) {
+        height: auto;
+        order: -1;
+    }
+    
+    .box-testemunhos :nth-child(6) {
+        order: -2;
+        visibility: hidden;
     }
 
     .avaliacao {
-        height: 22rem;
-        margin: 3rem 0;
+        font-family: 'Hind Madurai', sans-serif;
+        font-weight: 400;
+        font-size: 1.8rem;
+        height: 25rem;
+        display: flex;
+        align-items: center;
     }
 
-    .nome{
-        font-size: 1.7rem;
+    .nome {
+        font-family: 'montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    .box-testemunhos article img:nth-child(4) {
+        max-width: 100%;
+        margin: 2rem 0 0;
+    }
+
+    .box-testemunhos > .reviews {
+        background-color: rgba(190, 22, 123, 1);
+        /* background-color: rgb(126, 190, 22); */
+    }
+
+    .reviews img {
+        width: 90%;
+        position: relative;
+        bottom: -4rem;
     }
 
     .sub-footer {
@@ -677,11 +689,11 @@
         background-color: rgb(190, 22, 123);
         /* background-color: aqua; */
     }
-    
+
     .sub-logo {
         margin-left: 3.5rem;
     }
-    
+
     .complemento-sub-logo {
         position: relative;
         left: 1.5rem;
@@ -699,170 +711,138 @@
         padding: 4rem;
     }
 
-    #topo {
-        padding: 3rem 4rem 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: start;
+    .hero-banner{
+        padding-top: 2.5rem;
+        padding-bottom: 1rem;
     }
 
-    .box-topo-1 {
-        display: none;
-        /* width: 53%;
-        display: flex;
-        flex-direction: column-reverse;
-        gap: .5rem; */
-    }
-
-    .titulo-topo-1 h4 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 4.7rem;
-        font-weight: 900;
+    h1 {
+        font-size: 2.1rem;
+        font-weight: 700;
         color: rgba(190, 22, 123, 1);
+        position: absolute;
+        top: 22.5rem;
+        z-index: 2;
+        visibility: hidden;
     }
 
-    .titulo-topo-1 h5 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 1.8rem;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
-    }
-
-    .box-topo-2 {
-        margin-top: 0rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .titulo-topo-2 h4 {
-        white-space: nowrap;
-        font-family: 'montserrat', sans-serif;
-        font-size: 11.4vw;
-        font-weight: 900;
-        color: rgba(190, 22, 123, 1);
-    }
-
-    .titulo-topo-2 h5 {
-        white-space: nowrap;
-        font-family: 'montserrat', sans-serif;
-        font-size: 3.8vw;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
-    }
-
-    .imgs-topo {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    .imgs-topo div {
-        background-color: royalblue;
-        max-width:  100%;
-        height: 28rem;
-    }
-
-    .imgs-topo div img {
+    .img-banner {
+        position: relative;
         width: 100%;
-        margin-top: -9rem;
     }
 
-    .imgs-topo div p {
-        /* height: 10rem; */
-        padding: 1.5rem;
-        bottom: 11.15rem;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.7);
-        font-family: 'montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 1.7rem;
-        color: white;
-        line-height: 1.8rem;
-    }
 
-    .titulo {
-        margin-bottom: 2.5rem;
+    .historia {
+        height: 100%;
+        padding-top: 1rem;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
+        /* background-color: rosybrown; */
     }
 
-    .titulo span {
-        display: none;
-        width: 34.3%;
-        height: 3.061rem;
-        background-image: url('../img/divisoria-pink.png');
-        background-repeat: repeat-x;
-    }
-
-    .box-servicos a {
-        width: 48.3%;
-        height: 80%;
-    }
-
-    .box-servicos a img {
-        width: 100%;
-    }
-
-    .box-servicos a p {
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
-    }
-
-    .box-servicos a span img {
-        width: 27%;
-        margin-right: 6.5%;
-    }
-
-    .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
-        display: none;
-    }
-
-    .box-servicos a p {
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
-    }
-
-    .box-servicos a span img {
-        width: 27%;
-        margin-right: 6.5%;
-    }
-
-    .icon-card-1 {
-        margin-top: -16%;
-    }
-    .icon-card-2 {
-        margin-top: -13%;
-    }
-    .icon-card-3 {
-        margin-top: -13%;
-    }
-    .icon-card-4 {
-        margin-top: -10%;
-    }
-
-    .box-parceiros {
+    .texto {
+        height: 100%;
+        display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 3%;
-        row-gap: 1.5rem;
+        column-gap: 3rem;
+        row-gap: 1rem;
+        /* background-color: royalblue; */
     }
 
-    .box-parceiros img {
-       width: 31.3%;
+    .texto h2 {
+        width: 100%;
+        line-height: 0rem;
+        text-align: center;
+        /* background-color: seagreen; */
     }
 
-    #sobre h2 {
-        margin-left: 2rem;
+    .linha-1 {
+        font-size: 7.4vw;
+        font-weight: 800;
+        /* color: rgba(190, 22, 123, 1); */
+    }
+
+    .linha-2 {
+        font-size: 7.4vw;
+        font-weight: 800;
+    }
+
+    .texto p {
+        font-family: 'montserrat', sans-serif;
+        font-size: 1.7rem;
+        line-height: 1.9rem;
+        text-align: justify;
+    }
+
+    .texto p:first-of-type {
+        width: 100%;
+        /* background-color: rgba(190, 22, 123, 1); */
+    }
+
+    .video {
+        width: 351px;
+        position: initial;
+        border-radius: 30px;
+        /* visibility: hidden; */
+    }
+
+    .avaliacoes{
+        background-color: rgba(190, 22, 123, 1);
+    }
+
+    .box-testemunhos {
+        padding-bottom: 0rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .box-testemunhos article {
+        width: 100%;
+        padding: 3rem 2rem ;
+        border-radius: 1.4rem;
+        text-align: center;
+        color: rgb(31, 31, 31);
+        background-color: rgba(255, 255, 255, 1);
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+    }
+    
+    .box-testemunhos :nth-child(3) {
+        order: -1;
     }
 
     .avaliacao {
-        height: auto;
-        margin: 3rem 0;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    .nome {
+        font-family: 'montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    .box-testemunhos article img:nth-child(4) {
+        max-width: 100%;
+        margin: 2rem 0 0;
+    }
+
+    .box-testemunhos > .reviews {
+        background-color: rgba(190, 22, 123, 1);
+        /* background-color: rgb(126, 190, 22); */
+    }
+
+    .reviews img {
+        width: 60%;
+        position: relative;
+        bottom: 0rem;
     }
 
     .sub-footer {
@@ -945,11 +925,11 @@
         background-color: rgb(190, 22, 123);
         /* background-color: aqua; */
     }
-    
+
     .sub-logo {
         margin-left: 3.5rem;
     }
-    
+
     .complemento-sub-logo {
         position: relative;
         left: 1.5rem;
@@ -963,130 +943,140 @@
         padding: 3rem;
     }
 
-    #topo {
-        padding: 3rem 3rem 0;
-        justify-content: center;
+    .hero-banner{
+        padding-top: 2.5rem;
+        padding-bottom: 1rem;
     }
 
-    .box-topo-1 {
-        display: none;
-    }
-
-    .box-topo-2 {
-        width: 30em;
-        margin-top: 0rem;
-        display: flex;
-        flex-direction: column;
-        /* background-color: aqua; */
-    }
-
-    .titulo-topo-2 h4 {
-        white-space: nowrap;
-        font-family: 'montserrat', sans-serif;
-        font-size: 4.15rem;
-        font-weight: 900;
+    h1 {
+        font-size: 2.1rem;
+        font-weight: 700;
         color: rgba(190, 22, 123, 1);
+        position: absolute;
+        top: 22.5rem;
+        z-index: 2;
+        visibility: hidden;
     }
 
-    .titulo-topo-2 h5 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 1.8rem;
-        font-weight: 900;
-        line-height: 2rem;
-        text-align: center;
-        color: rgba(28, 36, 46, 1);
+    .img-banner {
+        position: relative;
+        width: 100%;
     }
 
-    .imgs-topo {
+
+    .historia {
+        height: 100%;
+        padding-top: 1rem;
         display: flex;
-        justify-content: space-between;
         flex-direction: column;
         align-items: center;
-        gap: 1.5rem;
+        /* background-color: rosybrown; */
     }
 
-    .imgs-topo div {
-        background-color: royalblue;
-        max-width: 26.8rem;
+    .texto {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 3rem;
+        row-gap: 1rem;
+        /* background-color: royalblue; */
     }
 
-    .imgs-topo div p {
-        /* height: 10rem; */
-        padding: 1.5rem;
+    .texto h2 {
+        width: 100%;
+        line-height: 0rem;
         text-align: center;
-        background-color: rgba(0, 0, 0, 0.7);
-        font-family: 'montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 1.5rem;
-        color: white;
-        line-height: 1.8rem;
+        /* background-color: seagreen; */
     }
 
-    .titulo {
-        margin-bottom: 2.5rem;
+    .linha-1 {
+        font-size: 7.4vw;
+        font-weight: 800;
+        /* color: rgba(190, 22, 123, 1); */
+    }
+
+    .linha-2 {
+        font-size: 7.4vw;
+        font-weight: 800;
+    }
+
+    .texto p {
+        font-family: 'montserrat', sans-serif;
+        font-size: 1.7rem;
+        line-height: 1.9rem;
+        text-align: justify;
+    }
+
+    .texto p:first-of-type {
+        width: 100%;
+        /* background-color: rgba(190, 22, 123, 1); */
+    }
+
+    .video {
+        width: 100%;
+        height: 100%;
+        max-width: 351px;
+        position: initial;
+        border-radius: 30px;
+        /* visibility: hidden; */
+    }
+
+    .avaliacoes{
+        background-color: rgba(190, 22, 123, 1);
+    }
+
+    .box-testemunhos {
+        padding-bottom: 0rem;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         align-items: center;
+        row-gap: 2rem;
     }
 
-    .titulo h2 {
+    .box-testemunhos article {
+        width: 100%;
+        padding: 3rem 2rem ;
+        border-radius: 1.4rem;
         text-align: center;
+        color: rgb(31, 31, 31);
+        background-color: rgba(255, 255, 255, 1);
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+    }
+    
+    .box-testemunhos :nth-child(3) {
+        order: -1;
     }
 
-    .titulo span {
-        display: none;
-        width: 34.3%;
-        height: 3.061rem;
-        background-image: url('../img/divisoria-pink.png');
-        background-repeat: repeat-x;
+    .avaliacao {
+        height: 180px;
+        display: flex;
+        align-items: center;
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 400;
     }
 
-    .titulo {
-        justify-content: center;
+    .nome {
+        font-family: 'montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 1.8rem;
     }
 
-    .box-servicos {
-        justify-content: center;
-        row-gap: 1.5rem;
+    .box-testemunhos article img:nth-child(4) {
+        max-width: 100%;
+        margin: 2rem 0 0;
     }
 
-    .box-servicos a p{
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
+    .box-testemunhos > .reviews {
+        background-color: rgba(190, 22, 123, 1);
+        /* background-color: rgb(126, 190, 22); */
     }
 
-    .box-servicos a span img{
-        width: 27%;
-        margin-right: 6.5%;
-    }
-
-    .box-servicos a:nth-child(5), .box-servicos a:nth-child(6), .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
-        display: none;
-    }
-
-    .box-servicos a p{
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
-    }
-
-    .box-servicos a span img{
-        width: 27%;
-        margin-right: 6.5%;
-    }
-
-    .icon-card-1{
-        margin-top: -16%;
-    }
-    .icon-card-2{
-        margin-top: -13%;
-    }
-    .icon-card-3{
-        margin-top: -13%;
-    }
-    .icon-card-4{
-        margin-top: -10%;
+    .reviews img {
+        width: 60%;
+        position: relative;
+        bottom: 0rem;
     }
 
     .sub-footer {
@@ -1138,7 +1128,6 @@
         display: none;
         margin-top: 2.5rem;
     }
-
 }
 
 @media (min-width: 0px) and (max-width: 550px) {

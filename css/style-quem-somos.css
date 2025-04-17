@@ -138,12 +138,17 @@ h1 {
 }
 
 .texto {
-    height: 10%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     column-gap: 3rem;
-    row-gap: 1rem;
     /* background-color: royalblue; */
+}
+
+.texto h2 {
+    width: 52%;
+    line-height: 4em;
+    /* background-color: seagreen; */
 }
 
 .linha-1 {
@@ -153,13 +158,14 @@ h1 {
 }
 
 .linha-2 {
-    font-size: 6rem;
+    font-size: 5.9rem;
     font-weight: 100;
 }
 
 .texto p {
     font-family: 'montserrat', sans-serif;
     font-size: 1.7rem;
+    line-height: 1.9rem;
 }
 
 .texto p:first-of-type {
@@ -239,7 +245,7 @@ h1 {
     outline: 3px solid rgba(190, 22, 123, 1);
     outline-offset: -3px;
 } */
- 
+
 @media (max-width: 2560px) {
     footer {
     background-color: rgba(26, 29, 35, 1);
