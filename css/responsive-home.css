@@ -55,22 +55,15 @@
 
     .box-servicos a{
         width: 23.5%;
-        height: 80%;
     }
 
     .box-servicos a img{
         width: 100%;
     }
 
-    .box-servicos a p{
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
-    }
-
     .box-servicos a span img{
-        width: 27%;
-        margin-right: 6.5%;
+        width: 32%;
+        margin-right: 4.3%;
     }
 
     .box-parceiros img{
@@ -177,22 +170,15 @@
 
     .box-servicos a{
         width: 31.5%;
-        height: 80%;
     }
 
     .box-servicos a img{
         width: 100%;
     }
 
-    .box-servicos a p{
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
-    }
-
     .box-servicos a span img{
-        width: 27%;
-        margin-right: 6.5%;
+        width: 30%;
+        margin-right: 4.5%;
     }
 
     .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
@@ -314,7 +300,6 @@
 
     .box-servicos a{
         width: 48.3%;
-        height: 80%;
     }
 
     .box-servicos a img{
@@ -322,14 +307,13 @@
     }
 
     .box-servicos a p{
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
+        font-size: 1.4rem;
+        font-weight: 500;
     }
 
     .box-servicos a span img{
-        width: 27%;
-        margin-right: 6.5%;
+        width: 32%;
+        margin-right: 3%;
     }
 
     .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
@@ -479,50 +463,19 @@
 
     .box-servicos a{
         width: 48.3%;
-        height: 80%;
     }
 
     .box-servicos a img{
         width: 100%;
     }
 
-    .box-servicos a p{
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
-    }
-
     .box-servicos a span img{
-        width: 27%;
-        margin-right: 6.5%;
+        width: 32%;
+        margin-right: 3%;
     }
 
     .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
         display: none;
-    }
-
-    .box-servicos a p{
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
-    }
-
-    .box-servicos a span img{
-        width: 27%;
-        margin-right: 6.5%;
-    }
-
-    .icon-card-1{
-        margin-top: -16%;
-    }
-    .icon-card-2{
-        margin-top: -13%;
-    }
-    .icon-card-3{
-        margin-top: -13%;
-    }
-    .icon-card-4{
-        margin-top: -10%;
     }
 
     .box-parceiros {
@@ -678,43 +631,8 @@
         row-gap: 1.5rem;
     }
 
-    .box-servicos a p{
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
-    }
-
-    .box-servicos a span img{
-        width: 27%;
-        margin-right: 6.5%;
-    }
-
     .box-servicos a:nth-child(5), .box-servicos a:nth-child(6), .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
         display: none;
-    }
-
-    .box-servicos a p{
-        padding-bottom: 1.5rem;
-        width: 13.5rem;
-        margin-top: -1rem;
-    }
-
-    .box-servicos a span img{
-        width: 27%;
-        margin-right: 6.5%;
-    }
-
-    .icon-card-1{
-        margin-top: -16%;
-    }
-    .icon-card-2{
-        margin-top: -13%;
-    }
-    .icon-card-3{
-        margin-top: -13%;
-    }
-    .icon-card-4{
-        margin-top: -10%;
     }
 
     .box-parceiros {

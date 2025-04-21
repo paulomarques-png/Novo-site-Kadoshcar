@@ -165,48 +165,38 @@ main section h2 {
     row-gap: 1.5rem;
 }
 
-.box-servicos a{
-    height: 28.5rem;
-    border-radius: 3rem;
-    overflow: hidden;
-    background-color: rgba(190, 22, 123, 1);
+.box-servicos a > img {
+    display: block;
 }
 
-.box-servicos a span{
-    margin-top: -5.5rem;
-    padding: 0rem 0rem 0rem 2rem;
-    display: flex;
-    gap: 2.5rem;
-    /* align-items: center; */
-    /* background-color: aqua; */
-}   
+.box-servicos div {
+    position: relative;
+    padding-left: 2rem;
+}
 
-.box-servicos a p{
-    font-family: 'montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 1.6rem;
+.box-servicos span {
+    position: absolute;
+    bottom: .9rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    /* background-color: aqua; */
+}
+
+.box-servicos div p {
     width: 14.3rem;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.7rem;
     color: white;
 }
 
-.icon-card-1{
-    margin-top: -16%;
-}
-.icon-card-2{
-    margin-top: -13%;
-}
-.icon-card-3{
-    margin-top: -13%;
-}
-.icon-card-4{
-    margin-top: -10%;
-}
-
-#parceiros{
+#parceiros {
     background-color: rgba(28, 36, 46, 1);
 }
 
-#parceiros h2{
+#parceiros h2 {
     color: white;
 }
 
