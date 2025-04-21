@@ -210,11 +210,6 @@ main section h2 {
     /* border: .2rem solid rgb(129, 129, 129); */
 }
 
-.box-servicos figcaption {
-    display: flex;
-    justify-content: space-between;
-}
-
 #sobre {
     background-color: rgba(235, 235, 235, 1);
 }
