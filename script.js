@@ -9,3 +9,17 @@ document.querySelector('input[type="checkbox"]').addEventListener('change', func
         header.style.backgroundColor = ''; // Reset to default
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtém o nome da página atual (ex: home, about, contact)
+    const currentPage = document.location.pathname.split("/").pop().split(".")[0];
+  
+    // Percorre todos os botões de navegação
+    document.querySelectorAll(".nav-button").forEach(link => {
+      // Verifica se o botão corresponde à página atual
+      if (link.getAttribute("data-page") === currentPage) {
+        // Adiciona a classe "active" ao botão
+        link.classList.add("pagina-ativa");
+      }
+    });
+  });

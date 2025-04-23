@@ -631,10 +631,6 @@
         row-gap: 1.5rem;
     }
 
-    .box-servicos a:nth-child(5), .box-servicos a:nth-child(6), .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
-        display: none;
-    }
-
     .box-parceiros {
         flex-wrap: wrap;
         justify-content: center;
@@ -644,6 +640,10 @@
 
     .box-parceiros img{
        width: 48%;
+    }
+
+    .box-servicos a:nth-child(5), .box-servicos a:nth-child(6), .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
+        display: none;
     }
 
     .avaliacao {

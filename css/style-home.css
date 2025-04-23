@@ -44,7 +44,6 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     color: white;
-    
 }
 
 .hero {
@@ -73,27 +72,65 @@ h1 {
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.65);
 }
 
-.botao-hero {
+.botao-banner {
     display: flex;
     justify-content: space-evenly;
 }
 
-.botao-hero > :first-child{
+.btn-contato {
     background-color: rgba(0, 206, 31, 1);
+    color: white;
+    padding: 1rem 1.6rem;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.botao-hero > :last-child{
+.btn-contato:hover {
+    background-color: rgba(0, 180, 28, 1);
+    transform: scale(1.05);
+}
+
+.btn-contato:active {
+    background-color: rgba(0, 160, 25, 1);
+    transform: scale(0.95);
+}
+
+.btn-contato:focus {
+    outline: 2px solid rgba(0, 206, 31, 0.8);
+    outline-offset: 2px;
+}
+
+.btn-servico {
     background-color: rgba(190, 22, 123, 1);
+    color: white;
+    padding: 1rem 1.6rem;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.botao-hero a {
+.btn-servico:hover {
+    background-color: rgba(170, 20, 110, 1);
+    transform: scale(1.05);
+}
+
+.btn-servico:active {
+    background-color: rgba(150, 18, 100, 1);
+    transform: scale(0.95);
+}
+
+.btn-servico:focus {
+    outline: 2px solid rgba(190, 22, 123, 0.8);
+    outline-offset: 2px;
+}
+
+.botao-banner a {
     padding: 1rem 1.6rem;
     color: white;
     border-radius: 2rem;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.btn-contato {
+.botoes {
     width: 40%;
     display: flex;
     justify-content: center;
@@ -101,13 +138,13 @@ h1 {
     gap: .5rem;
 }
 
-.btn-contato p {
+.botoes p {
     font-family: 'montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.8rem;
 }
 
-.btn-contato img {
+.botoes img {
     width: 2.3rem;
 }
 
@@ -137,14 +174,14 @@ nav ul a {
 }
 
 nav ul a:hover {
-    color: rgba(190, 22, 123, 1);
+    color: var(--rosa-kadosh);
     transform: scale(1.1);
 }
 
 nav ul a:active {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.65);
-    color: rgb(89, 0, 206);
+    color: var(--active-menu);
     transform: scale(0.95);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.65);
 }
 
 main section {
@@ -155,7 +192,7 @@ main section h2 {
     margin-bottom: 1.9rem;
     font-size: 2rem;
     font-weight: 700;
-    color: rgba(190, 22, 123, 1);
+    color: var(--rosa-kadosh);
 }
 
 .box-servicos {
@@ -259,11 +296,31 @@ main section h2 {
     margin: 2rem 0;
 }
 
-.box-testemunhos article img:last-of-type {
+.avatar {
     margin-bottom: -7.5rem;
     border-radius: 6rem;
     outline: 3px solid rgba(190, 22, 123, 1);
     outline-offset: -3px;
+}
+
+.sem-avatar {
+    width: 87px;
+    height: 87px;
+    margin:0 auto -7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 29, 35, 1);
+    border-radius: 6rem;
+    outline: 3px solid rgba(190, 22, 123, 1);
+    outline-offset: -3px;
+}
+
+.sem-avatar p {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 6rem;
+    color: white;
 }
 
 /* Estilização do carrossel */
@@ -307,7 +364,7 @@ footer {
 }
 
 .sub-footer div a:hover {
-    color: rgba(190, 22, 123, 1);
+    color: var(--rosa-kadosh);
     transition: color 0.3s ease, transform 0.2s ease;
 }
 
@@ -334,7 +391,7 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 2.2rem;
-    color: rgba(190, 22, 123, 1);
+    color: var(--rosa-kadosh);
 }
 
 .main-footer div p {
