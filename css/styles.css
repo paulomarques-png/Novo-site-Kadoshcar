@@ -14,6 +14,11 @@
     font-style: normal;
 }
 
+:root {
+    --rosa-kadosh: rgb(190, 22, 123);
+    --active-menu: rgb(89, 0, 206);
+}
+
 html {
     padding: 4rem 0rem;
     font-size: 62.5%;
@@ -21,6 +26,10 @@ html {
     background-image: url('../img/bg.png');
     background-repeat: repeat;
     background-size: 50%;
+}
+
+.pagina-ativa {
+    color: var(--rosa-kadosh);
 }
 
 p{
