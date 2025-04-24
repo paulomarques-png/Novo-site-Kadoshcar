@@ -105,6 +105,10 @@
         background-repeat: repeat-x;
     }
 
+    .box-servicos {
+        row-gap: 2rem;
+    }
+
     .box-servicos a{
         width: 23.5%;
     }
@@ -254,6 +258,10 @@
 
     .titulo span{
         width: 46.3%;
+    }
+
+    .box-servicos {
+        row-gap: 1.5rem;
     }
 
     .box-servicos a{
@@ -418,6 +426,10 @@
 
     .titulo span{
         width: 34%;
+    }
+
+    .box-servicos {
+        row-gap: 1.5rem;
     }
 
     .box-servicos a{
@@ -603,6 +615,10 @@
 
     .titulo span {
         display: none;
+    }
+
+    .box-servicos {
+        row-gap: 1.5rem;
     }
 
     .box-servicos a{
