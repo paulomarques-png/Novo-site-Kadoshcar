@@ -43,15 +43,14 @@
     main section {
         padding: 3rem 6rem;
     }
+    
     #topo {
         padding: 0 6rem 0;
-        display: flex;
-        justify-content: space-between;
-        gap: 3rem
+        gap: 2rem
     }
 
     .img-box-topo-1 {
-        max-width: 32rem;
+        max-width: 31.5rem;
     }
 
     .titulo-topo-1{
@@ -59,37 +58,19 @@
     }
 
     .box-topo-2 {
-        margin-top: 3rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         gap: 1rem;
     }
 
-    .titulo-topo-2 h4{
-        font-family: 'montserrat', sans-serif;
+    .titulo-topo-2 h4 {
         font-size: 7.69rem;
-        font-weight: 900;
-        color: rgba(190, 22, 123, 1);
     }
 
-    .btitulo-topo-2 h5{
-        font-family: 'montserrat', sans-serif;
-        font-size: 2.59rem;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
-    }
-
-    .imgs-topo{
-        display: flex;
-        justify-content: space-between;
-        gap: 1.5rem;
+    .titulo-topo-2 h5 {
+        font-size: 2.58rem;
     }
 
     .imgs-topo div{
-        max-width: 27rem;
-        border-radius: 30px;
-        overflow: hidden;
+        width: 47.9%;
     }
 
     .imgs-topo div img{
@@ -122,13 +103,6 @@
         height: 3.061rem;
         background-image: url('../img/divisoria-pink.png');
         background-repeat: repeat-x;
-    }
-
-    .box-servicos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        row-gap: 1.5rem;
     }
 
     .box-servicos a{
@@ -226,7 +200,7 @@
     }
 
     .box-topo-1 {
-        width: 53%;
+        width: 54.68%;
         display: flex;
         flex-direction: column-reverse;
         gap: .5rem;
@@ -246,30 +220,13 @@
 
     .titulo-topo-1 h5 {
         font-family: 'montserrat', sans-serif;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 900;
         color: rgba(28, 36, 46, 1);
     }
 
     .box-topo-2 {
         margin-top: 0rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .titulo-topo-2 h4{
-        font-family: 'montserrat', sans-serif;
-        font-size: 7.328rem;
-        font-weight: 900;
-        color: rgba(190, 22, 123, 1);
-    }
-
-    .titulo-topo-2 h5{
-        font-family: 'montserrat', sans-serif;
-        font-size: 2.48rem;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
     }
 
     .titulo-topo-2{
@@ -277,16 +234,12 @@
     }
 
     .imgs-topo{
-        display: flex;
-        justify-content: space-between;
         flex-direction: column;
         gap: 1.5rem;
     }
 
     .imgs-topo div{
-        max-width: 27rem;
-        border-radius: 30px;
-        overflow: hidden;
+        width: 100%;
     }
 
     .imgs-topo div img{
@@ -296,29 +249,11 @@
     .imgs-topo div p{
         height: 10rem;
         padding: 1.5rem;
-        margin-top: -10.15rem;
-        position: relative;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.7);
-        font-family: 'montserrat', sans-serif;
-        font-weight: 400;
         font-size: 1.7rem;
-        color: white;
-        line-height: 1.8rem;
-    }
-
-    .titulo {
-        margin-bottom: 2.5rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 
     .titulo span{
         width: 46.3%;
-        height: 3.061rem;
-        background-image: url('../img/divisoria-pink.png');
-        background-repeat: repeat-x;
     }
 
     .box-servicos a{
@@ -440,64 +375,31 @@
 
     #topo {
         padding: 3rem 4rem 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: start;
     }
 
     .box-topo-1 {
         display: none;
-        /* width: 53%;
-        display: flex;
-        flex-direction: column-reverse;
-        gap: .5rem; */
-    }
-
-    .titulo-topo-1 h4 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 4.7rem;
-        font-weight: 900;
-        color: rgba(190, 22, 123, 1);
-    }
-
-    .titulo-topo-1 h5 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 1.8rem;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
     }
 
     .box-topo-2 {
         margin-top: 0rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     .titulo-topo-2 h4{
-        font-family: 'montserrat', sans-serif;
         font-size: 7.09rem;
-        font-weight: 900;
-        color: rgba(190, 22, 123, 1);
     }
 
     .titulo-topo-2 h5{
-        font-family: 'montserrat', sans-serif;
         font-size: 2.38rem;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
     }
 
     .imgs-topo{
-        display: flex;
-        justify-content: space-between;
         flex-direction: row;
         gap: 1.5rem;
     }
 
     .imgs-topo div{
-        width:  252.25px;
-        height: 265px;
+        width: 48.6%;
     }
 
     .imgs-topo div img{
@@ -507,29 +409,15 @@
     .imgs-topo div p{
         height: 10rem;
         padding: 1.5rem;
-        margin-top: -10.15rem;
-        position: relative;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.7);
-        font-family: 'montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 1.7rem;
-        color: white;
-        line-height: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .titulo {
         margin-bottom: 2.5rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 
     .titulo span{
-        width: 34.3%;
-        height: 3.061rem;
-        background-image: url('../img/divisoria-pink.png');
-        background-repeat: repeat-x;
+        width: 34%;
     }
 
     .box-servicos a{
@@ -538,11 +426,6 @@
 
     .box-servicos a img{
         width: 100%;
-    }
-
-    .box-servicos a p{
-        font-size: 1.4rem;
-        font-weight: 500;
     }
 
     .box-servicos a span img{
@@ -683,98 +566,43 @@
 
     #topo {
         padding: 3rem 4rem 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: start;
     }
 
     .box-topo-1 {
         display: none;
-        /* width: 53%;
-        display: flex;
-        flex-direction: column-reverse;
-        gap: .5rem; */
-    }
-
-    .titulo-topo-1 h4 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 4.7rem;
-        font-weight: 900;
-        color: rgba(190, 22, 123, 1);
-    }
-
-    .titulo-topo-1 h5 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 1.8rem;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
     }
 
     .box-topo-2 {
         margin-top: 0rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     .titulo-topo-2 h4 {
         white-space: nowrap;
-        font-family: 'montserrat', sans-serif;
         font-size: 11.4vw;
-        font-weight: 900;
-        color: rgba(190, 22, 123, 1);
     }
 
     .titulo-topo-2 h5 {
         white-space: nowrap;
-        font-family: 'montserrat', sans-serif;
         font-size: 3.8vw;
-        font-weight: 900;
-        color: rgba(28, 36, 46, 1);
     }
 
     .imgs-topo {
-        display: flex;
-        justify-content: space-between;
         flex-direction: column;
         gap: 1.5rem;
     }
 
     .imgs-topo div {
-        background-color: royalblue;
-        max-width:  100%;
-    }
-
-    .imgs-topo div img {
         width: 100%;
-        /* margin-top: -9rem; */
+        border-radius: 15px;
     }
 
     .imgs-topo div p {
-        /* height: 10rem; */
         padding: 1.5rem;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.7);
-        font-family: 'montserrat', sans-serif;
-        font-weight: 400;
-        font-size: 1.8rem;
-        color: white;
         line-height: 2.1rem;
-    }
-
-    .titulo {
-        margin-bottom: 2.5rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 
     .titulo span {
         display: none;
-        width: 34.3%;
-        height: 3.061rem;
-        background-image: url('../img/divisoria-pink.png');
-        background-repeat: repeat-x;
     }
 
     .box-servicos a{
@@ -785,11 +613,14 @@
         width: 100%;
     }
 
+    .box-servicos div p{
+        font-size: 3vw;
+    }
+
     .box-servicos a span img{
         width: 32%;
         margin-right: 3%;
     }
-
     .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
         display: none;
     }
@@ -922,41 +753,33 @@
     }
 
     .box-topo-2 {
-        width: 30em;
         margin-top: 0rem;
-        display: flex;
-        flex-direction: column;
-        /* background-color: aqua; */
     }
 
     .titulo-topo-2 h4 {
         white-space: nowrap;
-        font-family: 'montserrat', sans-serif;
-        font-size: 4.15rem;
-        font-weight: 900;
-        color: rgba(190, 22, 123, 1);
+        font-size: 11.5vw;
+        text-align: center;
     }
 
     .titulo-topo-2 h5 {
-        font-family: 'montserrat', sans-serif;
-        font-size: 1.8rem;
-        font-weight: 900;
-        line-height: 2rem;
+        font-size: 6vw;
+        line-height: 2.5rem;
         text-align: center;
-        color: rgba(28, 36, 46, 1);
     }
 
     .imgs-topo {
-        display: flex;
-        justify-content: space-between;
         flex-direction: column;
         align-items: center;
         gap: 1.5rem;
     }
 
     .imgs-topo div {
-        background-color: royalblue;
-        /* max-width: 26.8rem; */
+        width: 100%;
+    }
+
+    .imgs-topo div img {
+        width: 100%;
     }
 
     .imgs-topo div p {
@@ -968,6 +791,10 @@
         font-size: 1.8rem;
         color: white;
         line-height: 2.1rem;
+    }
+
+    .imgs-topo div img {
+        height: auto;
     }
 
     .titulo {
@@ -994,20 +821,42 @@
     }
 
     .box-servicos {
-
         justify-content: center;
         row-gap: 1.5rem;
     }
 
-    .box-parceiros {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 3%;
-        row-gap: 1.5rem;
+    .box-servicos a{
+        width: 100%;
+    }
+    
+    .box-servicos a > img {
+        width: 100%;
     }
 
-    .box-parceiros img{
-       width: 48%;
+    .box-servicos a div {
+        position: relative;
+        padding-left: 2rem;
+        /* background-color: royalblue; */
+    }
+    
+    .box-servicos span {
+        width: 93%;
+        position: absolute;
+        bottom: 1.45rem;
+        display: flex;
+        align-items: center;
+        gap: 11%;
+        /* background-color: aqua; */
+    }
+    
+    .box-servicos div p {
+        width: 58%;
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    
+    .box-servicos div img {
+        width: 28.5%;
     }
 
     .box-servicos a:nth-child(5), .box-servicos a:nth-child(6), .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {

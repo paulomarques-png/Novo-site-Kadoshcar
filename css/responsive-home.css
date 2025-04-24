@@ -34,13 +34,13 @@
         text-align: center;
     }
 
-    .botao-hero {
+    .botoes-banner {
         /* flex-wrap: wrap; */
         justify-content: space-evenly;
         gap: 1.2rem;
     }
 
-    .btn-contato {
+    .banner-botao {
         width: 100%;
         justify-content: center;
     }
@@ -149,13 +149,13 @@
         font-size: 3.8rem;
     }
 
-    .botao-hero {
+    .botoes-banner {
         margin-bottom: -2rem;
         justify-content: space-between;
         gap: 2rem;
     }
 
-    .btn-contato {
+    .banner-botao {
         width: 100%;
         justify-content: center;
     }
@@ -275,13 +275,13 @@
         line-height: 3.5rem;
     }
 
-    .botao-hero {
+    .botoes-banner {
         margin-bottom: -2rem;
         justify-content: space-between;
         gap: 2rem;
     }
 
-    .btn-contato {
+    .banner-botao {
         width: 100%;
         justify-content: center;
     }
@@ -304,11 +304,6 @@
 
     .box-servicos a img{
         width: 100%;
-    }
-
-    .box-servicos a p{
-        font-size: 1.4rem;
-        font-weight: 500;
     }
 
     .box-servicos a span img{
@@ -442,13 +437,13 @@
         line-height: 3.5rem;
     }
 
-    .botao-hero {
+    .botoes-banner {
         margin-bottom: -2rem;
         justify-content: space-between;
         gap: 2rem;
     }
 
-    .btn-contato {
+    .banner-botao {
         width: 100%;
         justify-content: center;
     }
@@ -467,6 +462,10 @@
 
     .box-servicos a img{
         width: 100%;
+    }
+
+    .box-servicos div p{
+        font-size: 3vw;
     }
 
     .box-servicos a span img{
@@ -602,13 +601,13 @@
         line-height: 3.5rem;
     }
 
-    .botao-hero {
+    .botoes-banner {
         margin-bottom: -2rem;
         justify-content: space-between;
         gap: 2rem;
     }
 
-    .btn-contato {
+    .banner-botao {
         width: 100%;
         justify-content: center;
     }
@@ -626,24 +625,57 @@
     }
 
     .box-servicos {
-
         justify-content: center;
         row-gap: 1.5rem;
     }
 
+    .box-servicos a{
+        width: 100%;
+    }
+    
+    .box-servicos a > img {
+        width: 100%;
+    }
+
+    .box-servicos a div {
+        position: relative;
+        padding-left: 2rem;
+        /* background-color: royalblue; */
+    }
+    
+    .box-servicos span {
+        width: 93%;
+        position: absolute;
+        bottom: 1.45rem;
+        display: flex;
+        align-items: center;
+        gap: 16%;
+        /* background-color: aqua; */
+    }
+    
+    .box-servicos div p {
+        width: 52%;
+        font-size: 4.25vw;
+        line-height: 5.5vw;
+    }
+    
+    .box-servicos div img {
+        width: 28.5%;
+    }
+    
+    .box-servicos a:nth-child(5), .box-servicos a:nth-child(6), .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
+        display: none;
+    }
+    
     .box-parceiros {
         flex-wrap: wrap;
         justify-content: center;
         gap: 3%;
         row-gap: 1.5rem;
     }
-
+    
     .box-parceiros img{
        width: 48%;
-    }
-
-    .box-servicos a:nth-child(5), .box-servicos a:nth-child(6), .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
-        display: none;
     }
 
     .avaliacao {
