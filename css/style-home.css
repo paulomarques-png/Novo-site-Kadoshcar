@@ -218,10 +218,10 @@ main section h2 {
 
 .box-servicos span {
     position: absolute;
-    bottom: .9rem;
+    bottom: .7rem;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     /* background-color: aqua; */
 }
 

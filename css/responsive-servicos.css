@@ -851,28 +851,30 @@
 
     .box-servicos a div {
         position: relative;
-        padding-left: 2rem;
+        padding-left: 0rem;
         /* background-color: royalblue; */
     }
     
     .box-servicos span {
-        width: 93%;
+        padding: 0 3% 0 7%;
+        width: 100%;
         position: absolute;
-        bottom: 1.45rem;
+        bottom: .8rem;
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        gap: 11%;
+        gap: 3.5rem;
         /* background-color: aqua; */
     }
     
     .box-servicos div p {
-        width: 58%;
-        font-size: 2rem;
-        line-height: 2.2rem;
+        width: 62%;
+        font-size: 4.25vw;
+        line-height: 5.5vw;
     }
     
     .box-servicos div img {
-        width: 28.5%;
+        width: 37%;
     }
 
     .box-servicos a:nth-child(5), .box-servicos a:nth-child(6), .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
@@ -1048,7 +1050,6 @@
         overflow: hidden;
     }
 }
-
 
 @media (min-width: 551px) {
     .menu-hamburguer, .menu-icon {
