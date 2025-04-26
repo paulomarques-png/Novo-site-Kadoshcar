@@ -122,9 +122,16 @@
         margin-right: 4.3%;
     }
 
-    .box-parceiros img{
-        flex-wrap: wrap;
-        width: 18%;
+    .outros-servicos {
+        padding-top: 0;
+    }
+    
+    .lista-serv-outros {
+        gap: 1.81rem;
+    }
+    
+    .itens-outros {
+        width: 32%;
     }
 
     .sub-footer {
@@ -279,6 +286,22 @@
 
     .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
         display: none;
+    }
+
+    .outros-servicos {
+        padding-top: 0;
+    }
+    
+    .lista-serv-outros {
+        gap: 2.24rem;
+    }
+    
+     .itens-outros {
+        width: 31%;
+    }
+
+    .lista-serv-outros li:nth-child(3), .lista-serv-outros li:nth-child(4) {
+        display: flex;
     }
 
     .box-parceiros {
@@ -447,6 +470,22 @@
 
     .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
         display: none;
+    }
+
+    .outros-servicos {
+        padding-top: 0;
+    }
+    
+    .lista-serv-outros {
+        gap: 1.5rem;
+    }
+    
+     .itens-outros {
+        width: 48.54%;
+     }
+
+    .lista-serv-outros li:nth-child(3), .lista-serv-outros li:nth-child(4) {
+        display: flex;
     }
 
     .box-parceiros {
@@ -639,6 +678,23 @@
     }
     .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
         display: none;
+    }
+
+    .outros-servicos {
+        padding-top: 0;
+    }
+    
+    .lista-serv-outros {
+        gap: 3%;
+        row-gap: 1rem;
+    }
+    
+    .itens-outros {
+    width: 48.5%;
+    }
+
+    .lista-serv-outros li:nth-child(3), .lista-serv-outros li:nth-child(4) {
+        display: flex;
     }
 
     .box-parceiros {
@@ -879,6 +935,23 @@
 
     .box-servicos a:nth-child(5), .box-servicos a:nth-child(6), .box-servicos a:nth-child(7), .box-servicos a:nth-child(8) {
         display: none;
+    }
+
+    .outros-servicos {
+        padding-top: 0;
+    }
+    
+    .lista-serv-outros {
+        gap: 3%;
+        row-gap: 1rem;
+    }
+    
+    .itens-outros {
+        width: 100%;
+    }
+
+    .lista-serv-outros li:nth-child(1), .lista-serv-outros li:nth-child(2), .lista-serv-outros li:nth-child(3), .lista-serv-outros li:nth-child(4) {
+        display: flex;
     }
 
     .sub-footer {
