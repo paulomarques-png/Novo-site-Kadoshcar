@@ -109,6 +109,7 @@
     }
 
     .video {
+        width: 287.41px;
         height: 452px;
         position: relative;
         top: -6.1rem;
@@ -311,6 +312,7 @@
 
     .video {
         width: 313px;
+        height: 492.23px;
         position: relative;
         top: -.6rem;
         border-radius: 30px;
@@ -532,6 +534,7 @@
 
     .video {
         width: 248px;
+        height: 390.02px;
         position: relative;
         top: -.6rem;
         border-radius: 30px;
@@ -782,6 +785,7 @@
 
     .video {
         width: 351px;
+        height: 552px;
         position: initial;
         border-radius: 30px;
         /* visibility: hidden; */
