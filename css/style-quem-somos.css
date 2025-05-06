@@ -171,6 +171,7 @@ h1 {
 }
 
 .video {
+    width: 351px;
     height: 552px;
     position: relative;
     top: -6rem;
